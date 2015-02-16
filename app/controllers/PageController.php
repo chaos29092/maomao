@@ -12,4 +12,9 @@ class PageController extends BaseController {
 		return View::make('page.about');
 	}
 
+    public function contact()
+	{
+		return View::make('page.contact');
+	}
+
 }
