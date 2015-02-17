@@ -21,52 +21,20 @@
 	<div id="masthead">
         <div class="clear"></div>
     	<div class="logo">
-        	<a href="index.html"><img src="images/logo.png" alt="" /></a>
-            <h5 class="slogn">The best watches for all</h5>
+        	<a href="index.html"><img src="images/logo.png" alt="Zeno" /></a>
+            <h5 class="slogn">The best device for all</h5>
         </div>
         <div class="clear"></div>
         <div class="navigation">
             <ul id="nav" class="dropdown dropdown-linear dropdown-columnar">
-                <li><a href="{{url('/')}}">Home</a></li>
-                <li><a href="{{url('about')}}">About Us</a></li>
-                <li class="dir"><a href="#">Mens</a>
-                    <ul>
-                        <li class="dir"><span class="colr bold navihead">Citizen</span>
-                            <ul>
-                                <li><a href="categories.html">AK Anne Klein</a></li>
-                                <li><a href="categories.html">Alexander Christie</a></li>
-                                <li><a href="categories.html">Arbutus</a></li>
-                                <li><a href="categories.html">Armitron</a></li>
-                                <li><a href="categories.html">Body Glove</a></li>
-                                <li><a href="categories.html">Calvin Klein</a></li>
-                            </ul>
-                        </li>
-                        <li class="dir"><span class="colr bold navihead">Calvin Klein</span>
-                            <ul>
-                                <li><a href="categories.html">AK Anne Klein</a></li>
-                                <li><a href="categories.html">Alexander Christie</a></li>
-                                <li><a href="categories.html">Arbutus</a></li>
-                                <li><a href="categories.html">Armitron</a></li>
-                                <li><a href="categories.html">Body Glove</a></li>
-                                <li><a href="categories.html">Calvin Klein</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="{{url('contact')}}">Contact</a></li>
-                <li class="dir"><a href="#">Pages</a>
-                    <ul class="pad">
-                    	<li class="clear"><a href="index.html">Home Page</a></li>
-                        <li class="clear"><a href="account.html">Account Page</a></li>
-                        <li class="clear"><a href="cart.html">Shopping Cart Page</a></li>
-                        <li class="clear"><a href="categories.html">Categories</a></li>
-                        <li class="clear"><a href="detail.html">Product Detail Page</a></li>
-                        <li class="clear"><a href="listing.html">Listing Page</a></li>
-                        <li class="clear"><a href="login.html">Login Page</a></li>
-                        <li class="clear"><a href="static.html">Static Page</a></li>
-                        <li class="clear"><a href="contact.html">Contact Page</a></li>
-                    </ul>
-                </li>
+                <li><a href="{{url('/')}}">主页</a></li>
+                <li><a href="{{url('colordevice')}}">彩超</a></li>
+                <li><a href="{{url('nocolordevice')}}">黑白超</a></li>
+                <li><a href="{{url('devicePart')}}">配件</a></li>
+                <li><a href="{{url('service')}}">服务</a></li>
+                <li><a href="{{url('about')}}">关于我们</a></li>
+                <li><a href="{{url('contact')}}">联系方式</a></li>
+
             </ul>
             <ul class="lang">
             	<li>Language:</li>
@@ -161,7 +129,6 @@
 <script type="text/javascript" src="{{asset('js/scroll.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/ddaccordion.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/acordn.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/cufon-yui.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/Trebuchet_MS_400-Trebuchet_MS_700-Trebuchet_MS_italic_700-Trebuchet_MS_italic_400.font.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/cufon.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/contentslider.js')}}"></script>
