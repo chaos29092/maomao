@@ -22,7 +22,7 @@
         <div class="clear"></div>
     	<div class="logo">
         	<a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Zeno" /></a>
-            <h5 class="slogn">The best device for all</h5>
+            <h5 class="slogn">Good doctors need good device</h5>
         </div>
         <div class="clear"></div>
         <div class="navigation">
@@ -31,7 +31,7 @@
                 <li><a href="{{url('colordevice')}}">彩超</a></li>
                 <li><a href="{{url('nocolordevice')}}">黑白超</a></li>
                 <li><a href="{{url('devicePart')}}">配件</a></li>
-                <li><a href="{{url('service')}}">服务</a></li>
+                <li><a href="{{url('service')}}">帮助</a></li>
                 <li><a href="{{url('about')}}">关于我们</a></li>
                 <li><a href="{{url('contact')}}">联系方式</a></li>
 
@@ -92,7 +92,7 @@
             <ul>
                 <li><a href="{{url('#')}}">促销信息</a></li>
                 <li><a href="{{url('#')}}">资料下载</a></li>
-                <li><a href="{{url('service')}}">服务</a></li>
+                <li><a href="{{url('service')}}">帮助</a></li>
                 <li><a href="{{url('about')}}">关于我们</a></li>
                 <li><a href="{{url('#')}}">招代理商</a></li>
                 <li><a href="{{url('contact')}}">联系方式</a></li>
@@ -127,6 +127,7 @@
 <script type="text/javascript" src="{{asset('js/contentslider.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.fancybox-1.3.1.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/lightbox.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/cont_slidr.js')}}"></script>
 <!--[if lte IE 7]>
 <script type="text/javascript" src="{{asset('js/jquery.dropdown.js')}}"></script>
 <![endif]-->

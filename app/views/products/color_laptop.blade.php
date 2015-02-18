@@ -56,7 +56,6 @@
                     </div>
                 </div>
                 <a href="javascript:void(null)" class="next"><img src="{{asset('images/next.gif')}}" alt="" /></a>
-                <script type="text/javascript" src="{{asset('js/cont_slidr.js')}}"></script>
             </div>
             <div class="desc">
                 <h2>$13,237.97</h2>
