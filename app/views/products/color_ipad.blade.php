@@ -106,6 +106,10 @@
                             <br/>
                             <img src="{{asset('images\products\coloripad\coloripad_d_1.jpg')}}" alt=""/>
                             <br/><br/>
+                            <img src="{{asset('images\products\coloripad\coloripad_d_6.jpg')}}" alt=""/>
+                            <br/><br/>
+                            <img src="{{asset('images\products\coloripad\coloripad_d_7.jpg')}}" alt=""/>
+                            <br/><br/>
                             <img src="{{asset('images\products\coloripad\coloripad_d_2.jpg')}}" alt=""/>
                             <br/><br/>
                             <img src="{{asset('images\products\coloripad\coloripad_d_3.jpg')}}" alt=""/>
