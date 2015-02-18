@@ -6,11 +6,11 @@
 <meta name="keywords" content="@yield('keywords')">
 <meta name="description" content="@yield('description')">
 <!-- // Stylesheets // -->
-<link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css" />
-<link rel="stylesheet" href="{{asset('css/slider.css')}}" type="text/css" media="screen" />
-<link rel="stylesheet" href="{{asset('css/default.advanced.css')}}" type="text/css" />
-<link rel="stylesheet" href="{{asset('css/contentslider.css')}}" type="text/css"  />
-<link rel="stylesheet" href="{{asset('css/jquery.fancybox-1.3.1.css')}}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{asset('css/style.min.css')}}" type="text/css" />
+<link rel="stylesheet" href="{{asset('css/slider.min.css')}}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{asset('css/default.advanced.min.css')}}" type="text/css" />
+<link rel="stylesheet" href="{{asset('css/contentslider.min.css')}}" type="text/css"  />
+<link rel="stylesheet" href="{{asset('css/jquery.fancybox-1.3.1.min.css')}}" type="text/css" media="screen" />
 
 </head>
 
@@ -21,7 +21,7 @@
 	<div id="masthead">
         <div class="clear"></div>
     	<div class="logo">
-        	<a href="index.html"><img src="images/logo.png" alt="Zeno" /></a>
+        	<a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Zeno" /></a>
             <h5 class="slogn">The best device for all</h5>
         </div>
         <div class="clear"></div>
@@ -57,60 +57,54 @@
         	<a href="#top" class="top">&nbsp;</a>
         </div>
         <div class="emailsignup">
-        	<h5>Email Signup</h5>
+        	<h5>Get Prices</h5>
             <ul class="inp">
             	<li><input name="newsletter" type="text" class="bar" /></li>
-                <li><a href="#" class="simplebtn">Signup</a></li>
+                <li><a href="#" class="simplebtn">Submit</a></li>
             </ul>
             <div class="clear"></div>
             <p class="signtxt">
-            	By entering my email address, I certify that the information I am providing is accurate and that I am at least 18 years of age.
+            	By entering your email address, We will send products price to you.
             </p>
             <h6>FLEXIBLE PAYMENT METHODS</h6>
             <ul class="cards">
-            	<li><img src="images/visa.gif" alt="visa" /></li>
-                <li><img src="images/master.gif" alt="master" /></li>
-                <li><img src="images/paypal.gif" alt="paypal" /></li>
-                <li><img src="images/american.gif" alt="american" /></li>
+            	<li><img src="{{asset('images/visa.gif')}}" alt="visa" /></li>
+                <li><img src="{{asset('images/master.gif')}}" alt="master" /></li>
+                <li><img src="{{asset('images/paypal.gif')}}" alt="paypal" /></li>
+                <li><img src="{{asset('images/american.gif')}}" alt="american" /></li>
             </ul>
         </div>
         
     	<div class="partners">
-        	<h5>Our Partners</h5>
+        	<h5>Products</h5>
             <ul>
-            	<li><a href="static.html">Lorem ipsum</a></li>
-                <li><a href="static.html">Dolor sit amet consectetur</a></li>
-                <li><a href="static.html">Edipisicing elitseddo</a></li>
-                <li><a href="static.html">Eiusmod tempor incididunt</a></li>
-                <li><a href="static.html">Lorem ipsum</a></li>
-                <li><a href="static.html">Dolor sit amet consectetur</a></li>
-                <li><a href="static.html">Edipisicing elitseddo</a></li>
-                <li><a href="static.html">Eiusmod tempor incididunt</a></li>
+                <li><a href="{{url('nocolordevice/ipad')}}">黑白超ipad</a></li>
+                <li><a href="{{url('nocolordevice/laptop')}}">黑白超laptop</a></li>
+            	<li><a href="{{url('colordevice/ipad')}}">彩超ipad</a></li>
+                <li><a href="{{url('colordevice/laptop')}}">彩超laptop</a></li>
+                <li><a href="{{url('colordevice/portable')}}">彩超portable</a></li>
+                <li><a href="#">配件</a></li>
             </ul>
             <div class="clear"></div>
         </div>
         <div class="partners">
-        	<h5>Customer Services</h5>
+        	<h5>Support</h5>
             <ul>
-            	<li><a href="static.html">Lorem ipsum</a></li>
-                <li><a href="static.html">Dolor sit amet consectetur</a></li>
-                <li><a href="static.html">Edipisicing elitseddo</a></li>
-                <li><a href="static.html">Eiusmod tempor incididunt</a></li>
-                <li><a href="static.html">Lorem ipsum</a></li>
-                <li><a href="static.html">Dolor sit amet consectetur</a></li>
-                <li><a href="static.html">Edipisicing elitseddo</a></li>
-                <li><a href="static.html">Eiusmod tempor incididunt</a></li>
+                <li><a href="{{url('#')}}">促销信息</a></li>
+                <li><a href="{{url('#')}}">资料下载</a></li>
+                <li><a href="{{url('service')}}">服务</a></li>
+                <li><a href="{{url('about')}}">关于我们</a></li>
+                <li><a href="{{url('#')}}">招代理商</a></li>
+                <li><a href="{{url('contact')}}">联系方式</a></li>
             </ul>
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
         <div class="copyrights">
-        	<p>© 2010 DUMY. All Rights Reserved</p>
+        	<p>© 2010 ZENO. All Rights Reserved</p>
             <div class="footer_links">
             	<ul>
-                	<li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Shipping &amp; Returns</a></li>
+                	<li><a href="#">Shipping &amp; Returns</a></li>
                     <li class="last"><a href="#">Product Warranty Info</a></li>
                 </ul>
             </div>
@@ -130,7 +124,6 @@
 <script type="text/javascript" src="{{asset('js/ddaccordion.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/acordn.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/Trebuchet_MS_400-Trebuchet_MS_700-Trebuchet_MS_italic_700-Trebuchet_MS_italic_400.font.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/cufon.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/contentslider.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.fancybox-1.3.1.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/lightbox.js')}}"></script>

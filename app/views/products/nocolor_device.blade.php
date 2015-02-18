@@ -18,10 +18,10 @@
             <h3 class="heading colr">黑白超</h3>
             <div class="categories">
                 <div class="cats">
-                    <a href="#"><img src="images/products_4.jpg" alt="" /></a>
+                    <a href="{{url('nocolordevice/laptop')}}"><img src="images/products_4.jpg" alt="" /></a>
                 </div>
                 <div class="cats_big">
-                    <a href="#"><img src="images/products_5.jpg" alt="" /></a>
+                    <a href="{{url('nocolordevice/ipad')}}"><img src="images/products_5.jpg" alt="" /></a>
                 </div>
             </div>
 

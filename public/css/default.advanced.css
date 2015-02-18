@@ -47,7 +47,7 @@ ul.dropdown {
 	}
 	ul.dropdown li.hover,
 	ul.dropdown li:hover {
-	 background-image:url(../images/navi_rol.gif);
+	 background-image:url("../images/navi_rol.gif");
 	 background-repeat:repeat-x;
 	 color:#FFF;
 	}
@@ -67,7 +67,7 @@ ul.dropdown {
 
 
 		ul.dropdown  li {
-		 background-image:url(..\..\images\sep3.gif);
+		 background-image:url(../images/sep3.gif);
 		 background-repeat:no-repeat;
 		 background-position:right;
 		}

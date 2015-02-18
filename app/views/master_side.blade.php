@@ -19,141 +19,60 @@
                 <!-- Categories -->
                 <div class="category">
                     <div class="small_heading">
-                        <h5 class="colr">Categories</h5>
+                        <h5 class="colr">Category</h5>
                     </div>
                     <div class="arrowlistmenu">
-                        <a class="menuheader expandable">Men’s Watches</a>
+                        <a class="menuheader expandable">彩超</a>
                         <ul class="categoryitems">
-                            <li><a href="#">Tissot</a></li>
-                            <li><a href="#" class="subexpandable">Rolex</a>
-                                <ul class="subcategoryitems">
-                                    <li><a href="#">Citizen</a></li>
-                                    <li><a href="#">Casio</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Citizen</a></li>
-                            <li><a href="#">Casio</a></li>
+                            <li><a href="{{url('colordevice/ipad')}}">Ipad</a></li>
+                            <li><a href="{{url('colordevice/laptop')}}">Laptop</a></li>
+                            <li><a href="{{url('colordevice/portable')}}">Portable</a></li>
                         </ul>
-                        <a class="menuheader expandable">Assesories</a>
+                        <a class="menuheader expandable">黑白超</a>
                         <ul class="categoryitems">
-                            <li><a href="#">Tissot</a></li>
-                            <li><a href="#" class="subexpandable">Rolex</a>
-                                <ul class="subcategoryitems">
-                                    <li><a href="#">Citizen</a></li>
-                                    <li><a href="#">Casio</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Citizen</a></li>
-                            <li><a href="#">Casio</a></li>
+                            <li><a href="{{url('nocolordevice/ipad')}}">Ipad</a></li>
+                            <li><a href="{{url('nocolordevice/laptop')}}">Laptop</a></li>
                         </ul>
-                        <a class="menuheader expandable">Women’s Watches</a>
+                        <a class="menuheader expandable">配件</a>
                         <ul class="categoryitems">
-                            <li><a href="#">Tissot</a></li>
-                            <li><a href="#" class="subexpandable">Rolex</a>
-                                <ul class="subcategoryitems">
-                                    <li><a href="#">Citizen</a></li>
-                                    <li><a href="#">Casio</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Citizen</a></li>
-                            <li><a href="#">Casio</a></li>
+                            <li><a href="{{url('nocolordevice/ipad')}}">手柄</a></li>
+                            <li><a href="{{url('nocolordevice/laptop')}}">其他</a></li>
                         </ul>
-                        <a class="menuheader expandable">Sports Watches</a>
-                        <ul class="categoryitems">
-                            <li><a href="#">Tissot</a></li>
-                            <li><a href="#" class="subexpandable">Rolex</a>
-                                <ul class="subcategoryitems">
-                                    <li><a href="#">Citizen</a></li>
-                                    <li><a href="#">Casio</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Citizen</a></li>
-                            <li><a href="#">Casio</a></li>
-                        </ul>
-                        <a class="menuheader expandable">Casual watches</a>
-                        <ul class="categoryitems">
-                            <li><a href="#">Tissot</a></li>
-                            <li><a href="#" class="subexpandable">Rolex</a>
-                                <ul class="subcategoryitems">
-                                    <li><a href="#">Citizen</a></li>
-                                    <li><a href="#">Casio</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Citizen</a></li>
-                            <li><a href="#">Casio</a></li>
-                        </ul>
-                        <a class="menuheader expandable">Wedding Watches</a>
-                        <ul class="categoryitems">
-                            <li><a href="#">Tissot</a></li>
-                            <li><a href="#" class="subexpandable">Rolex</a>
-                                <ul class="subcategoryitems">
-                                    <li><a href="#">Citizen</a></li>
-                                    <li><a href="#">Casio</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Citizen</a></li>
-                            <li><a href="#">Casio</a></li>
-                        </ul>
+
                     </div>
                     <div class="clear"></div>
                     <div class="left_botm">&nbsp;</div>
                 </div>
-                <!-- My Cart Products -->
-                <div class="mycart">
-                    <div class="small_heading">
-                        <h5 class="colr">My Cart</h5>
+                <!-- Categories -->
+                    <div class="category">
+                        <div class="small_heading">
+                            <h5 class="colr">促销信息</h5>
+                        </div>
+                        <p>dsasaas</p>
+                        <p>dsaas</p>
+                        </div>
                         <div class="clear"></div>
-                        <span class="veiwitems">(3) Items - <a href="cart.html" class="colr">View Cart</a></span>
-                    </div>
-                    <ul>
-                        <li>
-                            <p class="bold title">
-                                <a href="detail.html">Apple Ipad Special Edition 3rd generation</a>
-                            </p>
-                            <div class="grey">
-                                <p class="left">QTY: <span class="bold">3</span></p>
-                                <p class="right">Price: <span class="bold">$200</span></p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="bold title">
-                                <a href="detail.html">Apple Ipad Special Edition 3rd generation</a>
-                            </p>
-                            <div class="grey">
-                                <p class="left">QTY: <span class="bold">3</span></p>
-                                <p class="right">Price: <span class="bold">$200</span></p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="bold title">
-                                <a href="detail.html">Apple Ipad Special Edition 3rd generation</a>
-                            </p>
-                            <div class="grey">
-                                <p class="left">QTY: <span class="bold">3</span></p>
-                                <p class="right">Price: <span class="bold">$200</span></p>
-                            </div>
-                        </li>
-                    </ul>
-                    <a href="#" class="simplebtn"><span>Checkout</span></a>
+                        <div class="left_botm">&nbsp;</div>
+
+
+
+                    <div class="category">
+                        <div class="small_heading">
+                            <h5 class="colr">快捷联系</h5>
+                        </div>
+                        <p>dsasaas</p>
+                        <p>dsaas</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="left_botm">&nbsp;</div>
                 </div>
-                <div class="poll">
-                    <div class="small_heading">
-                        <h5 class="colr">Poll</h5>
-                    </div>
-                    <p>What is your favorite Magento feature?</p>
-                    <ul>
-                        <li><input name="layerd" type="radio" value="" /> Layered Navigation</li>
-                        <li><input name="price" type="radio" value="" /> Price Rules</li>
-                        <li><input name="category" type="radio" value="" /> Category Management</li>
-                        <li><input name="compare" type="radio" value="" /> Compare Products</li>
-                    </ul>
-                    <a href="#" class="simplebtn">Vote</a>
-                </div>
-            </div>
+
+
+
             <!-- Column2 Section -->
             @yield('side_content')
 
-            <div class="clear"></div>
+
             <div class="clear"></div>
         </div>
         <div class="cont_botm">&nbsp;</div>
