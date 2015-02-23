@@ -12,3 +12,4 @@ Route::get('colordevice/portable', 'ProductController@colorPortable');
 Route::get('colordevice/ipad', 'ProductController@colorIpad');
 Route::get('nocolordevice/laptop', 'ProductController@nocolorLaptop');
 Route::get('nocolordevice/ipad', 'ProductController@nocolorIpad');
+Route::get('colordevice/probes', 'ProductController@probes');

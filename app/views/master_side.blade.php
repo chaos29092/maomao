@@ -35,8 +35,7 @@
                         </ul>
                         <a class="menuheader expandable">配件</a>
                         <ul class="categoryitems">
-                            <li><a href="{{url('nocolordevice/ipad')}}">手柄</a></li>
-                            <li><a href="{{url('nocolordevice/laptop')}}">其他</a></li>
+                            <li><a href="{{url('colordevice/probes')}}">探头</a></li>
                         </ul>
 
                     </div>

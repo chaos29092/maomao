@@ -27,4 +27,9 @@ class ProductController extends BaseController {
 		return View::make('products.nocolor_ipad');
 	}
 
+    public function probes()
+	{
+		return View::make('products.probes');
+	}
+
 }

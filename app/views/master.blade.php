@@ -5,6 +5,7 @@
 <title>@yield('title')</title>
 <meta name="keywords" content="@yield('keywords')">
 <meta name="description" content="@yield('description')">
+<link rel="shortcut icon" href="{{asset('images/favicon.ico')}}">
 <!-- // Stylesheets // -->
 <link rel="stylesheet" href="{{asset('css/style.min.css')}}" type="text/css" />
 <link rel="stylesheet" href="{{asset('css/slider.min.css')}}" type="text/css" media="screen" />
@@ -19,7 +20,6 @@
 <div id="wrapper_sec">
 	<!-- Header -->
 	<div id="masthead">
-        <div class="clear"></div>
     	<div class="logo">
         	<a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Zeno" /></a>
             <h5 class="slogn">Good doctors need good device</h5>
@@ -30,7 +30,7 @@
                 <li><a href="{{url('/')}}">主页</a></li>
                 <li><a href="{{url('colordevice')}}">彩超</a></li>
                 <li><a href="{{url('nocolordevice')}}">黑白超</a></li>
-                <li><a href="{{url('devicePart')}}">配件</a></li>
+                <li><a href="{{url('colordevice/probes')}}">探头</a></li>
                 <li><a href="{{url('service')}}">帮助</a></li>
                 <li><a href="{{url('about')}}">关于我们</a></li>
                 <li><a href="{{url('contact')}}">联系方式</a></li>
@@ -83,7 +83,7 @@
             	<li><a href="{{url('colordevice/ipad')}}">彩超ipad</a></li>
                 <li><a href="{{url('colordevice/laptop')}}">彩超laptop</a></li>
                 <li><a href="{{url('colordevice/portable')}}">彩超portable</a></li>
-                <li><a href="#">配件</a></li>
+                <li><a href="{{url('colordevice/probes')}}">探头</a></li>
             </ul>
             <div class="clear"></div>
         </div>
