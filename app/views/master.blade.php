@@ -31,10 +31,9 @@
                 <li><a href="{{url('colordevice')}}">彩超</a></li>
                 <li><a href="{{url('nocolordevice')}}">黑白超</a></li>
                 <li><a href="{{url('colordevice/probes')}}">探头</a></li>
-                <li><a href="{{url('service')}}">帮助</a></li>
                 <li><a href="{{url('about')}}">关于我们</a></li>
                 <li><a href="{{url('contact')}}">联系方式</a></li>
-
+                <li><a href="{{url('service')}}">帮助</a></li>
             </ul>
             <ul class="lang">
             	<li>Language:</li>
