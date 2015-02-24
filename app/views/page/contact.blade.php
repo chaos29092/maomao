@@ -35,22 +35,22 @@
                 {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                 <ul>
                     <li>
-                        <input type="text" name="contactname" id="contactname" placeholder="your name" class="bar required" />
+                        <input type="text" name="contactname" id="contactname" placeholder="Your name" class="bar required" />
                     </li>
                     <li>
-                        <input type="text" name="email" id="email" placeholder="your email address" class="bar required email" />
+                        <input type="text" name="email" id="email" placeholder="Your email address" class="bar required email" />
                     </li>
                     <li>
-                        <input type="text" name="product"  placeholder="product name" id="product" class="required bar" />
+                        <input type="text" name="product"  placeholder="Product name" id="product" class="required bar" />
                     </li>
                     <li>
-                        <input type="text" value="Country(Optional)" name="country" onblur="if(this.value == '') { this.value = 'Country(Optional)'; }" onfocus="if(this.value == 'Country(Optional)') { this.value = ''; }" id="product" class="bar" />
+                        <input type="text" name="country" placeholder="Country(optional)" id="product" class="bar" />
                     </li>
                     <li>
-                        <input type="text" value="Phone Number(Optional)" name="phone" onblur="if(this.value == '') { this.value = 'Phone Number(Optional)'; }" onfocus="if(this.value == 'Phone Number(Optional)') { this.value = ''; }" id="phone" class="bar" />
+                        <input type="text" placeholder="Phone Number(Optional)" name="phone" id="phone" class="bar" />
                     </li>
                     <li>
-                        <textarea id="message" name="mes" onblur="if(this.value == '') { this.value = 'Message'; }" onfocus="if(this.value == 'Message') { this.value = ''; }" cols="50" rows="5" class="required"></textarea>
+                        <textarea id="message" name="mes"  placeholder="Message" cols="50" rows="5" class="required"></textarea>
                     </li>
                     <li>
                         {{ Form::submit(Lang::get('page.send'), array('class' => 'simplebtn')) }}

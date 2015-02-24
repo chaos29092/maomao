@@ -39,52 +39,52 @@
             <div class="anyClass scrol">
                 <ul>
                     <li>
-                        <a href="detail.html"><img src="{{asset('images/DUS_1.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet Watch</h6>
+                        <a href="{{url('nocolordevice/ipad')}}"><img src="{{asset('images/DUS_1.jpg')}}" alt="" /></a>
+                        <h6 class="colr">Tsovet </h6>
                         <div class="addwish">
-                            <a href="#">Detal</a>
+                            <a href="{{url('nocolordevice/ipad')}}">View Detal</a>
                         </div>
                         <p class="price colr bold">Description</p>
                     </li>
                     <li>
-                        <a href="detail.html"><img src="{{asset('images/DUS_2.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet Watch</h6>
+                        <a href="{{url('nocolordevice/laptop')}}"><img src="{{asset('images/DUS_2.jpg')}}" alt="" /></a>
+                        <h6 class="colr">Tsovet </h6>
                         <div class="addwish">
-                            <a href="#">Wishlist</a>
+                            <a href="{{url('nocolordevice/laptop')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">$510</p>
+                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
-                        <a href="detail.html"><img src="{{asset('images/DUS_3.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet Watch</h6>
+                        <a href="{{url('colordevice/laptop')}}"><img src="{{asset('images/DUS_3.jpg')}}" alt="" /></a>
+                        <h6 class="colr">Tsovet </h6>
                         <div class="addwish">
-                            <a href="#">Wishlist</a>
+                            <a href="{{url('colordevice/laptop')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">$510</p>
+                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
-                        <a href="detail.html"><img src="{{asset('images/DUS_4.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet Watch</h6>
+                        <a href="{{url('colordevice/portable')}}"><img src="{{asset('images/DUS_4.jpg')}}" alt="" /></a>
+                        <h6 class="colr">Tsovet </h6>
                         <div class="addwish">
-                            <a href="#">Wishlist</a>
+                            <a href="{{url('colordevice/portable')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">$510</p>
+                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
-                        <a href="detail.html"><img src="{{asset('images/DUS_5.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet Watch</h6>
+                        <a href="{{url('colordevice/ipad')}}"><img src="{{asset('images/DUS_5.jpg')}}" alt="" /></a>
+                        <h6 class="colr">Tsovet </h6>
                         <div class="addwish">
-                            <a href="#">Wishlist</a>
+                            <a href="{{url('colordevice/ipad')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">$510</p>
+                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
-                        <a href="detail.html"><img src="{{asset('images/DUS_6.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet Watch</h6>
+                        <a href="{{url('colordevice/probes')}}"><img src="{{asset('images/DUS_6.jpg')}}" alt="" /></a>
+                        <h6 class="colr">Tsovet </h6>
                         <div class="addwish">
-                            <a href="#">Wishlist</a>
+                            <a href="{{url('colordevice/probes')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">$510</p>
+                        <p class="price colr bold">Description</p>
                     </li>
                 </ul>
             </div>
