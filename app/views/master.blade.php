@@ -57,10 +57,12 @@
         </div>
         <div class="emailsignup">
         	<h5>Get Prices</h5>
+            {{ Form::open(array('url' => 'getPrice', 'class' => 'form-horizontal', 'role' => 'form' )) }}
             <ul class="inp">
-            	<li><input name="newsletter" type="text" class="bar" /></li>
-                <li><a href="#" class="simplebtn">Submit</a></li>
+            	<li><input name="email" placeholder="    your email address" type="text" class="bar" /></li>
+                <li>{{ Form::submit(Lang::get('page.send'), array('class' => 'simplebtn')) }}</li>
             </ul>
+            {{ Form::close() }}
             <div class="clear"></div>
             <p class="signtxt">
             	By entering your email address, We will send products price to you.

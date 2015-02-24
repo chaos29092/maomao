@@ -31,25 +31,34 @@
                 </div>
             </div>
             <div class="contact_form">
-                <h6 class="colr">Send us a Message</h6>
+                <h6 class="colr">Please Fill Your Inquiry</h6>
+                {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                 <ul>
                     <li>
-                        <input type="text" value="Name" name="contactname" id="contactname" onblur="if(this.value == '') { this.value = 'Name'; }" onfocus="if(this.value == 'Name') { this.value = ''; }" class="bar required" />
+                        <input type="text" name="contactname" id="contactname" placeholder="your name" class="bar required" />
                     </li>
                     <li>
-                        <input type="text" value="Email Adress" name="email" id="email" onblur="if(this.value == '') { this.value = 'Email Adress'; }" onfocus="if(this.value == 'Email Adress') { this.value = ''; }" class="bar required email" />
+                        <input type="text" name="email" id="email" placeholder="your email address" class="bar required email" />
                     </li>
                     <li>
-                        <input type="text" value="Subject" name="subject" onblur="if(this.value == '') { this.value = 'Subject'; }" onfocus="if(this.value == 'Subject') { this.value = ''; }" id="subject" class="required bar" />
+                        <input type="text" name="product"  placeholder="product name" id="product" class="required bar" />
                     </li>
                     <li>
-                        <textarea id="message" name="message" onblur="if(this.value == '') { this.value = 'Message'; }" onfocus="if(this.value == 'Message') { this.value = ''; }" cols="50" rows="5" class="required"></textarea>
+                        <input type="text" value="Country(Optional)" name="country" onblur="if(this.value == '') { this.value = 'Country(Optional)'; }" onfocus="if(this.value == 'Country(Optional)') { this.value = ''; }" id="product" class="bar" />
                     </li>
                     <li>
-                        <a href="#" class="simplebtn">Submit</a>
+                        <input type="text" value="Phone Number(Optional)" name="phone" onblur="if(this.value == '') { this.value = 'Phone Number(Optional)'; }" onfocus="if(this.value == 'Phone Number(Optional)') { this.value = ''; }" id="phone" class="bar" />
+                    </li>
+                    <li>
+                        <textarea id="message" name="mes" onblur="if(this.value == '') { this.value = 'Message'; }" onfocus="if(this.value == 'Message') { this.value = ''; }" cols="50" rows="5" class="required"></textarea>
+                    </li>
+                    <li>
+                        {{ Form::submit(Lang::get('page.send'), array('class' => 'simplebtn')) }}
                     </li>
                 </ul>
+                {{ Form::close() }}
             </div>
+
         </div>
     </div>
 @stop
