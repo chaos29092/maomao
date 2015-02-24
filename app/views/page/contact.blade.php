@@ -47,7 +47,7 @@
                         <input type="text" name="country" placeholder="Country(optional)" id="product" class="bar" />
                     </li>
                     <li>
-                        <input type="text" placeholder="Phone Number(Optional)" name="phone" id="phone" class="bar" />
+                        <input type="text" placeholder="Phone number(optional)" name="phone" id="phone" class="bar" />
                     </li>
                     <li>
                         <textarea id="message" name="mes"  placeholder="Message" cols="50" rows="5" class="required"></textarea>
