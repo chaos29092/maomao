@@ -90,6 +90,8 @@
                             <p class="des">7.DVD-RW (optional), built-in hard disk and USB printers offer multiple ways to store files</p>
 
                             <br/>
+                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_4.jpg')}}" alt=""/>
+                            <br/><br/>
                             <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_3.jpg')}}" alt=""/>
                             <br/><br/>
                             <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_2.jpg')}}" alt=""/>
