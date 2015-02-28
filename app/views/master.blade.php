@@ -33,7 +33,7 @@
                 <li><a href="{{url('colordevice/probes')}}">探头</a></li>
                 <li><a href="{{url('about')}}">关于我们</a></li>
                 <li><a href="{{url('contact')}}">联系方式</a></li>
-                <li><a href="{{url('service')}}">帮助</a></li>
+                <li><a href="{{url('service')}}">如何购买</a></li>
             </ul>
             <ul class="lang">
             	<li>Language:</li>

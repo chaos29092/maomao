@@ -50,9 +50,9 @@
                 <br/>
                 <p><span class="bold">Availability:</span> In stock</p>
                 <div class="quickreview">
-                    <h6>Quick Overview</h6>
+                    <h6>Promotion:</h6>
                     <p>
-                        产品的简单介绍，并加入优惠套餐信息
+                        15% OFF for 3 probes
                     </p>
                 </div>
                 <div class="addtocart">

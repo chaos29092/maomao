@@ -18,15 +18,15 @@
             <h3 class="heading colr">彩超</h3>
             <div class="categories">
                 <div class="cats">
-                    <a href="{{url('colordevice/laptop')}}"><img src="images/products_laptop.jpg" alt="" /></a>
+                    <a href="{{url('colordevice/laptop')}}"><img src="images/products_1.jpg" alt="" /></a>
                 </div>
                 <div class="cats_big">
-                    <a href="{{url('colordevice/ipad')}}"><img src="images/products_Palmsize.jpg" alt="" /></a>
+                    <a href="{{url('colordevice/ipad')}}"><img src="images/products_2.jpg" alt="" /></a>
                 </div>
             </div>
 
 
-            <a href="{{url('colordevice/portable')}}"><img src="images/products_Portable.jpg" alt="" /></a>
+            <a href="{{url('colordevice/portable')}}"><img src="images/products_3.jpg" alt="" /></a>
             <div class="clear"></div>
         </div>
         <div class="cont_botm">&nbsp;</div>

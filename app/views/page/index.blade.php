@@ -40,51 +40,45 @@
                 <ul>
                     <li>
                         <a href="{{url('nocolordevice/ipad')}}"><img src="{{asset('images/DUS_1.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet </h6>
+                        <h6 class="colr">Palmsize Diagnostic Ultrasound Scanner</h6>
                         <div class="addwish">
                             <a href="{{url('nocolordevice/ipad')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
                         <a href="{{url('nocolordevice/laptop')}}"><img src="{{asset('images/DUS_2.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet </h6>
+                        <h6 class="colr">Laptop Diagnostic Ultrasound Scanner</h6>
                         <div class="addwish">
                             <a href="{{url('nocolordevice/laptop')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
                         <a href="{{url('colordevice/laptop')}}"><img src="{{asset('images/DUS_3.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet </h6>
+                        <h6 class="colr">Laptop Ultrasound Color Doppler</h6>
                         <div class="addwish">
                             <a href="{{url('colordevice/laptop')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
                         <a href="{{url('colordevice/portable')}}"><img src="{{asset('images/DUS_4.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet </h6>
+                        <h6 class="colr">Portable Ultrasound Color Doppler</h6>
                         <div class="addwish">
                             <a href="{{url('colordevice/portable')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
                         <a href="{{url('colordevice/ipad')}}"><img src="{{asset('images/DUS_5.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet </h6>
+                        <h6 class="colr">Palmsize Ultrasound Color Doppler</h6>
                         <div class="addwish">
                             <a href="{{url('colordevice/ipad')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">Description</p>
                     </li>
                     <li>
                         <a href="{{url('colordevice/probes')}}"><img src="{{asset('images/DUS_6.jpg')}}" alt="" /></a>
-                        <h6 class="colr">Tsovet </h6>
+                        <h6 class="colr">probe</h6>
                         <div class="addwish">
                             <a href="{{url('colordevice/probes')}}">View Detal</a>
                         </div>
-                        <p class="price colr bold">Description</p>
                     </li>
                 </ul>
             </div>
