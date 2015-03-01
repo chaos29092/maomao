@@ -69,10 +69,8 @@
             </p>
             <h6>{{Lang::get('page.payment')}}</h6>
             <ul class="cards">
-            	<li><img src="{{asset('images/visa.gif')}}" alt="visa" /></li>
-                <li><img src="{{asset('images/master.gif')}}" alt="master" /></li>
-                <li><img src="{{asset('images/paypal.gif')}}" alt="paypal" /></li>
-                <li><img src="{{asset('images/american.gif')}}" alt="american" /></li>
+            	<li><img src="{{asset('images/western-union.jpg')}}" alt="western union" /></li>
+                <li><img src="{{asset('images/bank-transfer.jpg')}}" alt="bank transfer" /></li>
             </ul>
         </div>
         
