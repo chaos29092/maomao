@@ -1,40 +1,38 @@
 @extends('master')
 
 @section('title')
-    index
+    ZENO - {{Lang::get('page.how_to_buy')}}
 @stop
 @section('keywords')
-    keywords
+    {{Lang::get('page.how_to_buy')}}
 @stop
 @section('description')
-    description
+    {{Lang::get('page.how_to_buy')}}
 @stop
 
 @section('content')
     <div class="content_sec">
         <div class="cont_top">&nbsp;</div>
         <div class="cont_center">
-            <h2 class="heading colr">如何购买</h2>
+            <h2 class="heading colr">{{Lang::get('page.how_to_buy')}}</h2>
             <div class="static">
-                <p><strong>Q: Payment Terms</strong></p>
-                <p>A:  Bank Transfer , Western Union.</p>
+                <p><strong>Q: {{Lang::get('page.q1')}}</strong></p>
+                <p>A:  {{Lang::get('page.a1')}}</p>
                 <br/>
-                <p><strong>Q: Delivery Time</strong></p>
-                <p>A:  According to machine and stock, the machine is sent normally 3-5 days after payment received and will cost another 4-5 days for shipping.</p>
+                <p><strong>Q: {{Lang::get('page.q2')}}</strong></p>
+                <p>A:  {{Lang::get('page.a2')}}</p>
                 <br/>
-                <p><strong>Q: Transportation</strong></p>
-                <p>A:  Air express. According to the country, can be DHL, TNT, FedEx or EMS. If you have preference for transportation, please let us know.</p>
+                <p><strong>Q: {{Lang::get('page.q3')}}</strong></p>
+                <p>A:  {{Lang::get('page.a3')}}</p>
                 <br/>
-                <p><strong>Q: Training</strong></p>
-                <p>A: We offer instruction manual, and even video to show you operation.</p>
+                <p><strong>Q: {{Lang::get('page.q4')}}</strong></p>
+                <p>A: {{Lang::get('page.a4')}}</p>
                 <br/>
-                <p><strong>Q: OEM</strong></p>
-                <p>A: OEM service. We can produce the machine according to your special need.</p>
+                <p><strong>Q: {{Lang::get('page.q5')}}</strong></p>
+                <p>A: {{Lang::get('page.a5')}}</p>
                 <br/>
-                <p><strong>Q: Aftersales Service</strong></p>
-                <p>A: We offer a warranty of 1 year for all equipments.</p>
-                <p>Within 1 year, the customer has the responsibility to provide us video or photos of the damaged equipment, thus our engineer can give relevant suggestions to solve the problem correctly, and send replacement parts to solve the problem.</p>
-                <p>We offer repair in future, with charges on failed parts.</p>
+                <p><strong>Q: {{Lang::get('page.q6')}}</strong></p>
+                <p>A: {{Lang::get('page.a6')}}</p>
             </div>
             <div class="clear"></div>
         </div>

@@ -26,14 +26,34 @@ return array(
 
     'promotion' => 'Promotion',
     'down' => 'Download',
-    'find' => 'Find Distributor',
+    'find' => 'Distributor Cooperation',
     'ship_or_return' => 'Shipping &amp; Returns',
     'warranty' => 'Product Warranty Info',
+
+    //sidemaster
+    'category' => 'Category',
+    'parts' => 'Parts',
+    'quick_contact' => 'Quick Contact',
 
     //index
     'most_products' => 'Our Most Recent Products',
     'view_detal' => 'View Detal',
     'promotion' => 'Promotion',
+
+    //help
+    'how_to_buy' => 'How to buy',
+    'q1' => 'Payment Terms',
+    'a1' => 'Bank Transfer , Western Union.',
+    'q2' => 'Delivery Time',
+    'a2' => 'According to machine and stock, the machine is sent normally 3-5 days after payment received and will cost another 4-5 days for shipping.',
+    'q3' => 'Transportation',
+    'a3' => 'Air express. According to the country, can be DHL, TNT, FedEx or EMS. If you have preference for transportation, please let us know.',
+    'q4' => 'Training',
+    'a4' => 'We offer instruction manual, and even video to show you operation.',
+    'q5' => 'OEM',
+    'a5' => 'OEM service. We can produce the machine according to your special need.',
+    'q6' => 'Aftersales Service',
+    'a6' => 'We offer a warranty of 1 year for all equipments. Within 1 year, the customer has the responsibility to provide us video or photos of the damaged equipment, thus our engineer can give relevant suggestions to solve the problem correctly, and send replacement parts to solve the problem. We offer repair in future, with charges on failed parts.',
 
     //products
     'color_doppler' => 'Ultrasound Color Doppler',
