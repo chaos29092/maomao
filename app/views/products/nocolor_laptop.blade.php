@@ -1,29 +1,29 @@
 @extends('master_side')
 
 @section('title')
-    index
+    ZENO - {{Lang::get('page.nocolorlaptop')}}
 @stop
 @section('keywords')
-    keywords
+    {{Lang::get('page.nocolorlaptop')}}
 @stop
 @section('description')
-    description
+    {{Lang::get('page.nocolorlaptop')}}
 @stop
 
 @section('side_content')
     <div class="col2">
-        <h4 class="heading colr">黑白laptop</h4>
+        <h4 class="heading colr">{{Lang::get('page.nocolorlaptop')}}</h4>
         <!-- Product Detail -->
         <div class="prod_detail">
             <div class="big_thumb">
                 <div id="slider2">
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_1.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\nocolorlaptop\nocolorlaptop_1.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_1.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 1" />
+                        <a rel="example_group" href="{{asset('images\products\nocolorlaptop\nocolorlaptop_1.jpg')}}" title="{{Lang::get('page.nocolorlaptop')}}" class="zoom">&nbsp;</a>
                     </div>
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_2.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\nocolorlaptop\nocolorlaptop_2.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_2.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 2" />
+                        <a rel="example_group" href="{{asset('images\products\nocolorlaptop\nocolorlaptop_2.jpg')}}" title="{{Lang::get('page.nocolorlaptop')}}" class="zoom">&nbsp;</a>
                     </div>
 
                 </div>
@@ -31,35 +31,35 @@
                 <div style="float:left; width:189px !important; overflow:hidden;">
                     <div class="anyClass" id="paginate-slider2">
                         <ul>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_small_1.jpg')}}" alt="" /></a></li>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_small_2.jpg')}}" alt="" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_small_1.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 1" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_detail_small_2.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 2" /></a></li>
                         </ul>
                     </div>
                 </div>
                 <a href="javascript:void(null)" class="next"><img src="{{asset('images/next.gif')}}" alt="" /></a>
             </div>
             <div class="desc">
-                <h2>黑白laptop</h2>
-                <a href="#" class="email">Email to Us</a>
+                <h2>{{Lang::get('page.nocolorlaptop')}}</h2>
+                <a href="#" class="email">{{Lang::get('page.email_to_us')}}</a>
                 <div class="clear"></div>
                 <br/>
-                <p><span class="bold">Availability:</span> In stock</p>
+                <p><span class="bold">{{Lang::get('page.ava')}}:</span> {{Lang::get('page.in_stock')}}</p>
                 <div class="quickreview">
-                    <h6>Quick Overview</h6>
+                    <h6>{{Lang::get('page.quick_overview')}}</h6>
                     <p>
-                        12.1 inch LED Screen, with keyboard, very suitable to operate; it contains balck&white color.
+                        {{Lang::get('page.ncl_qo')}}
                     </p>
                 </div>
                 <div class="addtocart">
                     <br/>
                     <ul class="inp">
-                        <li><a href="{{url('contact')}}" class="simplebtn">Contact Us</a></li>
+                        <li><a href="{{url('contact')}}" class="simplebtn">{{Lang::get('page.contact_us')}}</a></li>
                     </ul>
                     <ul>
                         <li class="bold or">OR</li>
                         <li>
-                            <a href="#" class="add clear">下载仪器资料</a>
-                            <a href="#" class="add clear">查看购买帮助</a>
+                            <a href="#" class="add clear">{{Lang::get('page.down_file')}}</a>
+                            <a href="#" class="add clear">{{Lang::get('page.view_help')}}</a>
                         </li>
                     </ul>
                     <div class="clear"></div>
@@ -68,8 +68,8 @@
             <div class="prod_desc">
                 <div class="tab_menu_container">
                     <ul id="tab_menu">
-                        <li><a class="" rel="tab_sidebar_recent">Product Description</a></li>
-                        <li><a class="" rel="tab_sidebar_comments">Details and Parameters</a></li>
+                        <li><a class="" rel="tab_sidebar_recent">{{Lang::get('page.product_des')}}</a></li>
+                        <li><a class="" rel="tab_sidebar_comments">{{Lang::get('page.details_and_parameters')}}</a></li>
                     </ul> <!-- END -->
                     <div class="clear"></div>
                 </div>
@@ -78,25 +78,25 @@
                     <div class="tab_container_in">
                         <!-- Recent Articles -->
                         <div id="tab_sidebar_recent" class="tab_sidebar_list">
-                            <h4>功能特点</h4><br />
-                            <p class="des">This machine is like a laptop computer, with keyboard in it, doctors can bring and record it freely. It is a full digital diagnostic ultrasound system. </p>
+                            <h4>{{Lang::get('page.features')}}</h4><br />
+                            <p class="des">{{Lang::get('page.ncl_des')}}</p>
                             <br/>
-                            <p class="des">1.12.1 inch TFT color LCD (1024*768)</p>
-                            <p class="des">2.Full digital system based on Windows XP</p>
-                            <p class="des">3.High-accuracy full digital imaging technology shows true details of the tissues' structure</p>
-                            <p class="des">4.Various display modes realizes comparative observation from multiple angles and direction.</p>
-                            <p class="des">5.DICOM 3.0 interface supports display and transfer in DICOM format</p>
-                            <p class="des">6.PAL-D, XGA, RS232 ports support external large screen display devices</p>
-                            <p class="des">7.DVD-RW (optional), built-in hard disk and USB printers offer multiple ways to store files</p>
+                            <p class="des">1. {{Lang::get('page.ncl_des_1')}}</p>
+                            <p class="des">2. {{Lang::get('page.ncl_des_2')}}</p>
+                            <p class="des">3. {{Lang::get('page.ncl_des_3')}}</p>
+                            <p class="des">4. {{Lang::get('page.ncl_des_4')}}</p>
+                            <p class="des">5. {{Lang::get('page.ncl_des_5')}}</p>
+                            <p class="des">6. {{Lang::get('page.ncl_des_6')}}</p>
+                            <p class="des">7. {{Lang::get('page.ncl_des_7')}}</p>
 
                             <br/>
-                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_4.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_4.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 1"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_3.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_3.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 2"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_2.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_2.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 3"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_1.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocolorlaptop\nocolorlaptop_d_1.jpg')}}" alt="{{Lang::get('page.nocolorlaptop')}} 4"/>
                             <br/><br/>
                         </div>
                         <!-- END -->
@@ -107,80 +107,75 @@
                         <div id="tab_sidebar_comments" class="tab_sidebar_list">
                             <div class="aditional_info">
                                 <ul>
-                                    <li class="bold title">Scanning mode</li>
-                                    <li class="desc">Convex/Linear</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_1')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_1')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Display mode</li>
-                                    <li class="desc">B,B+B,B+M,M,4B </li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_2')}}</li>
+                                    <li class="desc">B,B+B,B+M,M,4B</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Scanning depth</li>
-                                    <li class="desc">250mm (Max) </li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_3')}}</li>
+                                    <li class="desc">250mm (Max)</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Gray scales</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_4')}}</li>
                                     <li class="desc">256</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Cine-loop</li>
-                                    <li class="desc">1024 frames</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_5')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_5')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Image conversion</li>
-                                    <li class="desc">up/down, left/right, black/white</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_6')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_6')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Zoom</li>
-                                    <li class="desc">10 steps</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_7')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_7')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Measurement </li>
-                                    <li class="desc">distance, circumference, area, volume, EF rate, heart rate</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_8')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_8')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">OB measurments</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_9')}}</li>
                                     <li class="desc">EDD, GA, FW ( with BPD, GS, CRL, FL, HC, AC )</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Probes selectable</li>
-                                    <li class="desc">convex, linear, micro-convex, transvaginal and endorectal</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_10')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_10')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Monitor</li>
-                                    <li class="desc">10.4 TFT color LCD</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_11')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_11')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Comment </li>
-                                    <li class="desc">date&time, name, sex, age, doctor, hospital, annotation </li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_12')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_12')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Wide application</li>
-                                    <li class="desc">abdominal, OB/GYN, urology, cardiology, small parts examination, etc</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_13')}}</li>
+                                    <li class="desc">{{Lang::get('page.ncl_li_13')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Standard</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_14')}}</li>
                                     <li class="desc">
-                                        <p>60R/3.5MHz Convex</p>
-                                        <p>A Lithium Battery</p>
-                                        <p>A Metal Suitcase</p>
+                                        <p>{{Lang::get('page.ncl_li_14_1')}}</p>
+                                        <p>{{Lang::get('page.ncl_li_14_2')}}</p>
+                                        <p>{{Lang::get('page.ncl_li_14_3')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Optional</li>
+                                    <li class="bold title">{{Lang::get('page.ncl_ul_15')}}</li>
                                     <li class="desc">
-                                        <p>7.5MHz Endorectal Linear</p>
-                                        <p>7.5MHz Linear </p>
-                                        <p>20R/5.0MHz Micro-Convex</p>
-                                        <p>13R/6.5MHz Transvaginal Convex</p>
-                                        <p>Video Printer</p>
+                                        <p>{{Lang::get('page.ncl_li_15_1')}}</p>
+                                        <p>{{Lang::get('page.ncl_li_15_2')}}</p>
+                                        <p>{{Lang::get('page.ncl_li_15_3')}}</p>
+                                        <p>{{Lang::get('page.ncl_li_15_4')}}</p>
+                                        <p>{{Lang::get('page.ncl_li_15_5')}}</p>
                                     </li>
                                 </ul>
-                                <ul>
-                                    <li class="bold title"></li>
-                                    <li class="desc"></li>
-                                </ul>
-
                             </div>
                         </div>
                         <!-- END -->

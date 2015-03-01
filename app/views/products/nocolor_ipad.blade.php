@@ -1,33 +1,33 @@
 @extends('master_side')
 
 @section('title')
-    index
+    ZENO - {{Lang::get('page.nocoloripad')}}
 @stop
 @section('keywords')
-    keywords
+    {{Lang::get('page.nocoloripad')}}
 @stop
 @section('description')
-    description
+    {{Lang::get('page.nocoloripad')}}
 @stop
 
 @section('side_content')
     <div class="col2">
-        <h4 class="heading colr">黑白ipad</h4>
+        <h4 class="heading colr">{{Lang::get('page.nocoloripad')}}</h4>
         <!-- Product Detail -->
         <div class="prod_detail">
             <div class="big_thumb">
                 <div id="slider2">
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\nocoloripad\nocoloripad_detail_1.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\nocoloripad\nocoloripad_1.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\nocoloripad\nocoloripad_detail_1.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 1" />
+                        <a rel="example_group" href="{{asset('images\products\nocoloripad\nocoloripad_1.jpg')}}" title="{{Lang::get('page.nocoloripad')}}" class="zoom">&nbsp;</a>
                     </div>
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\nocoloripad\nocoloripad_detail_2.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\nocoloripad\nocoloripad_2.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\nocoloripad\nocoloripad_detail_2.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 2" />
+                        <a rel="example_group" href="{{asset('images\products\nocoloripad\nocoloripad_2.jpg')}}" title="{{Lang::get('page.nocoloripad')}}" class="zoom">&nbsp;</a>
                     </div>
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\nocoloripad\nocoloripad_detail_3.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\nocoloripad\nocoloripad_3.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\nocoloripad\nocoloripad_detail_3.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 3" />
+                        <a rel="example_group" href="{{asset('images\products\nocoloripad\nocoloripad_3.jpg')}}" title="{{Lang::get('page.nocoloripad')}}" class="zoom">&nbsp;</a>
                     </div>
 
                 </div>
@@ -35,39 +35,39 @@
                 <div style="float:left; width:189px !important; overflow:hidden;">
                     <div class="anyClass" id="paginate-slider2">
                         <ul>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocoloripad\nocoloripad_detail_small_1.jpg')}}" alt="" /></a></li>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocoloripad\nocoloripad_detail_small_2.jpg')}}" alt="" /></a></li>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocoloripad\nocoloripad_detail_small_3.jpg')}}" alt="" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocoloripad\nocoloripad_detail_small_1.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 1" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocoloripad\nocoloripad_detail_small_2.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 2" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\nocoloripad\nocoloripad_detail_small_3.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 3" /></a></li>
                         </ul>
                     </div>
                 </div>
                 <a href="javascript:void(null)" class="next"><img src="{{asset('images/next.gif')}}" alt="" /></a>
             </div>
             <div class="desc">
-                <h2>黑白ipad</h2>
-                <a href="#" class="email">Email to Us</a>
+                <h2>{{Lang::get('page.nocoloripad')}}</h2>
+                <a href="#" class="email">{{Lang::get('page.email_to_us')}}</a>
                 <div class="clear"></div>
                 <br/>
-                <p><span class="bold">Availability:</span> In stock</p>
+                <p><span class="bold">{{Lang::get('page.ava')}}:</span> {{Lang::get('page.in_stock')}}</p>
                 <div class="quickreview">
-                    <h6>Now Promotions!</h6>
-                    <p>Off 20%, Only for March.</p>
+                    <h6>{{Lang::get('page.now_promotion')}}</h6>
+                    <p>{{Lang::get('page.now_promotion_20')}}</p>
                     <br/>
-                    <h6>Quick Overview</h6>
-                    <p>10.4 inch Touch Screen, full digital diagnostic ultrasound scanner, black&white.</p>
-
-
+                    <h6>{{Lang::get('page.quick_overview')}}</h6>
+                    <p>
+                        {{Lang::get('page.nci_qo')}}
+                    </p>
                 </div>
                 <div class="addtocart">
                     <br/>
                     <ul class="inp">
-                        <li><a href="{{url('contact')}}" class="simplebtn">Contact Us</a></li>
+                        <li><a href="{{url('contact')}}" class="simplebtn">{{Lang::get('page.contact_us')}}</a></li>
                     </ul>
                     <ul>
                         <li class="bold or">OR</li>
                         <li>
-                            <a href="#" class="add clear">下载仪器资料</a>
-                            <a href="#" class="add clear">查看购买帮助</a>
+                            <a href="#" class="add clear">{{Lang::get('page.down_file')}}</a>
+                            <a href="#" class="add clear">{{Lang::get('page.view_help')}}</a>
                         </li>
                     </ul>
                     <div class="clear"></div>
@@ -76,8 +76,8 @@
             <div class="prod_desc">
                 <div class="tab_menu_container">
                     <ul id="tab_menu">
-                        <li><a class="" rel="tab_sidebar_recent">Product Description</a></li>
-                        <li><a class="" rel="tab_sidebar_comments">Details and Parameters</a></li>
+                        <li><a class="" rel="tab_sidebar_recent">{{Lang::get('page.product_des')}}</a></li>
+                        <li><a class="" rel="tab_sidebar_comments">{{Lang::get('page.details_and_parameters')}}</a></li>
                     </ul> <!-- END -->
                     <div class="clear"></div>
                 </div>
@@ -86,28 +86,28 @@
                     <div class="tab_container_in">
                         <!-- Recent Articles -->
                         <div id="tab_sidebar_recent" class="tab_sidebar_list">
-                            <h4>功能特点</h4><br />
-                            <p class="des">This equipment has 10.4 inch touch screen, which makes it more flexible to operate. And like an ipad, it can be carried out easily.</p>
+                            <h4>{{Lang::get('page.features')}}</h4><br />
+                            <p class="des">{{Lang::get('page.nci_des')}}</p>
                             <br/>
-                            <p class="des">1.Dual interface;</p>
-                            <p class="des">2.Can directly matche video,laser,ink jet printers to print report,no need any software,and image is real;</p>
-                            <p class="des">3.Can directly connect various kinds of probes with different elements,different specifications and different applications;</p>
-                            <p class="des">4.Equipped with lithium battery,which can be used more than four hours when the power is off;</p>
-                            <p class="des">5.Advanced and reliable pure digital PC platform,backlit silica gel keyboard;</p>
-                            <p class="des">6.Net weight:1.9kg,packaged by metal suitcase,light and easy to carry.;</p>
-                            <p class="des">7.High definition 10.4/12.1  inch medical liquid crystal display;</p>
-                            <p class="des">8.with 3D reconstruction function.</p>
+                            <p class="des">1. {{Lang::get('page.nci_des_1')}}</p>
+                            <p class="des">2. {{Lang::get('page.nci_des_2')}}</p>
+                            <p class="des">3. {{Lang::get('page.nci_des_3')}}</p>
+                            <p class="des">4. {{Lang::get('page.nci_des_4')}}</p>
+                            <p class="des">5. {{Lang::get('page.nci_des_5')}}</p>
+                            <p class="des">6. {{Lang::get('page.nci_des_6')}}</p>
+                            <p class="des">7. {{Lang::get('page.nci_des_7')}}</p>
+                            <p class="des">8. {{Lang::get('page.nci_des_8')}}</p>
 
                             <br/>
-                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_1.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_1.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 1"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_2.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_2.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 2"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_3.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_3.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 3"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_4.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_4.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 4"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_5.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\nocoloripad\nocoloripad_d_5.jpg')}}" alt="{{Lang::get('page.nocoloripad')}} 5"/>
                             <br/><br/>
                         </div>
                         <!-- END -->
@@ -118,204 +118,190 @@
                         <div id="tab_sidebar_comments" class="tab_sidebar_list">
                             <div class="aditional_info">
                                 <ul>
-                                    <li class="bold title">Product Name</li>
-                                    <li class="desc">Full Digital Diagnostic Ultrasound System</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_1')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_1')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Display Mode</li>
-                                    <li class="desc"> B, B/B, B/M, M, 4B, 9B</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_2')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_2')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Scanning Mode</li>
-                                    <li class="desc">Electronic Convex/ Linear/ Micro-convex</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_3')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_3')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Depth</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_4')}}</li>
                                     <li class="desc">240mm</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Screen</li>
-                                    <li class="desc">10/inchwide screen LED</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_5')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_5')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Probe port</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_6')}}</li>
                                     <li class="desc">2</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Resolution</li>
-                                    <li class="desc">longitudinal≤1mm；horizontal≤2mm</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_7')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_7')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Output Connecter</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_8')}}</li>
                                     <li class="desc">USB, DICOM, VGA</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Gray Scale</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_9')}}</li>
                                     <li class="desc">256</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Time Gain</li>
-                                    <li class="desc">gain：0～100dB</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_10')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_10')}}</li>
                                 </ul>
                                 <ul>
                                     <li class="bold title">TGC</li>
-                                    <li class="desc">8 segments，it can separately adjust under B Mode and M Mode</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_11')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Storage</li>
-                                    <li class="desc">image save、cine loop,big memory capacity≥10G. measurement results storage,report storage</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_12')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_12')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Cine Loop</li>
-                                    <li class="desc">64,128,256,512 frame auto/manual</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_13')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_13')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Patient Information</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_14')}}</li>
                                     <li class="desc">
-                                        <p>Hospital Name</p>
-                                        <p>Patient Name</p>
-                                        <p>Record Number</p>
-                                        <p>Age</p>
-                                        <p>Gender</p>
-                                        <p>Record</p>
-                                        <p>Save</p>
+                                        <p>{{Lang::get('page.nci_li_14_1')}}</p>
+                                        <p>{{Lang::get('page.nci_li_14_2')}}</p>
+                                        <p>{{Lang::get('page.nci_li_14_3')}}</p>
+                                        <p>{{Lang::get('page.nci_li_14_4')}}</p>
+                                        <p>{{Lang::get('page.nci_li_14_5')}}</p>
+                                        <p>{{Lang::get('page.nci_li_14_6')}}</p>
+                                        <p>{{Lang::get('page.nci_li_14_7')}}</p>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Focus</li>
-                                    <li class="desc">1-4 focuses, it can be combined by different methods and removed</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_15')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_15')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Zoom, Partial Enlargement</li>
-                                    <li class="desc">16 levels zoom,1-4 Real-time partial enlargement</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_16')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_16')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Comments function</li>
-                                    <li class="desc">Omments function in picture are comments function in patient information
-                                    </li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_17')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_17')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Chinese and English</li>
-                                    <li class="desc">operation interface can realize the change of Chinese and English</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_18')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_18')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Body Mark</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_19')}}</li>
                                     <li class="desc">140</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">multi-frequency check</li>
-                                    <li class="desc">THI5 segment frequencies+THI for check</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_20')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_20')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Have 3D software function</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_21')}}</li>
                                     <li class="desc">Yes</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Color Display</li>
-                                    <li class="desc">more than 40 kinds</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_22')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_22')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">AC/DC amphibious</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_23')}}</li>
                                     <li class="desc">Yes</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Report</li>
-                                    <li class="desc">display report, save report</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_24')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_24')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Variable Angle scanning</li>
-                                    <li class="desc">25％、30%、35%、…100% in total 16 levels angles</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_25')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_25')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Image processing</li>
-                                    <li class="desc">image front-processing,image post-processing,dynamic range,frame correlation, line correlation, edge enhancemen, W/B overturn,L/R overturn, UP/DOWN overturn，gray project, gray curve, contrast, brightness, V correction, noise reduction</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_26')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_26')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Basic measurement in B mode</li>
-                                    <li class="desc">distance, circumstance, area, volume, angle, histogram, cross-section diagram, thurl angle</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_27')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_27')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Basic measurement in M mode</li>
-                                    <li class="desc">heart rate, time,slope</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_28')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_28')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Abdominal measurement</li>
-                                    <li class="desc">liver,gallbladder, kidney, pancreas,spleen</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_29')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_29')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Gynecology measurement</li>
-                                    <li class="desc">uterus,cervix uterus, endometrium, ovary, ovarian follicle, hydatoncus, enclosed mass</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_30')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_30')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Obstetric measurement</li>
-                                    <li class="desc">AC、BPD、CRL、FL、THD、GS、OFD、HUMERUS、TIDIA、ULNA、HC、TAD、APTD、FTA. It can measure the age of fetus, weight of fetus, AFI, the analytical report of fetus and the growth curve</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_31')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_31')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Cardiology measurement</li>
-                                    <li class="desc">LV,LV function,aorta, mitral valve</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_32')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_32')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Urology measurement</li>
-                                    <li class="desc">Left renal volume, Right renal volume, RUV,prostate kidney</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_33')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_33')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Small organs measurement</li>
-                                    <li class="desc">ophthalmology, thyroid,jaw and face</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_34')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_34')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Dimension</li>
-                                    <li class="desc">245mm×92mm×50mm </li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_35')}}</li>
+                                    <li class="desc">245mm×92mm×50mm</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Weight</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_36')}}</li>
                                     <li class="desc">
-                                        <p>Around 4.5kg</p>
-                                        <p>Weproduct net weight<3KG</p>
+                                        <p>{{Lang::get('page.nci_li_36_1')}}</p>
+                                        <p>{{Lang::get('page.nci_li_36_2')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Standard Configuration</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_37')}}</li>
                                     <li class="desc">
-                                        <p>Host</p>
-                                        <p>Convex-probe(C3.5MHzR60)</p>
-                                        <p>Power Adapter </p>
-                                        <p>User manual</p>
-                                        <p>Lithium Battery</p>
+                                        <p>{{Lang::get('page.nci_li_37_1')}}</p>
+                                        <p>{{Lang::get('page.nci_li_37_2')}}</p>
+                                        <p>{{Lang::get('page.nci_li_37_3')}}</p>
+                                        <p>{{Lang::get('page.nci_li_37_4')}}</p>
+                                        <p>{{Lang::get('page.nci_li_37_5')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Options:</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_38')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">(1)	Probe</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_39')}}</li>
                                     <li class="desc">
-                                        <p>Convex probe(C3.2MHzR20)</p>
-                                        <p>Linear probe(L6.0MHzL40)</p>
-                                        <p>Visual convex probe(E6.5MHzR10)</p>
-                                        <p>Intracavity probe(E6.5MHzR13)</p>
-                                        <p>Cardiac probe(C5.0MHzR20)</p>
+                                        <p>{{Lang::get('page.nci_li_39_1')}}</p>
+                                        <p>{{Lang::get('page.nci_li_39_2')}}</p>
+                                        <p>{{Lang::get('page.nci_li_39_3')}}</p>
+                                        <p>{{Lang::get('page.nci_li_39_4')}}</p>
+                                        <p>{{Lang::get('page.nci_li_39_5')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">(2)	DICOM3.0 transmission</li>
-                                    <li class="desc">Product connects with PACS, it can gain the image and informaton through DICOM transmission</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_40')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_40')}}</li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">(3)	Printer</li>
-                                    <li class="desc">laser, ink jet</li>
+                                    <li class="bold title">{{Lang::get('page.nci_ul_41')}}</li>
+                                    <li class="desc">{{Lang::get('page.nci_li_41')}}</li>
                                 </ul>
-                                <ul>
-                                    <li class="bold title"></li>
-                                    <li class="desc">
-                                        <p></p>
-                                        <p></p>
-                                        <p></p>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li class="bold title"></li>
-                                    <li class="desc"></li>
-                                </ul>
-
                             </div>
                         </div>
                         <!-- END -->
