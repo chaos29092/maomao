@@ -21,19 +21,19 @@
 	<!-- Header -->
 	<div id="masthead">
     	<div class="logo">
-        	<a href="index.html"><img src="{{asset('images/logo.png')}}" alt="Zeno" /></a>
-            <h5 class="slogn">Good doctors need good device</h5>
+        	<a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="Zeno" /></a>
+            <h5 class="slogn">{{Lang::get('page.slogn')}}</h5>
         </div>
         <div class="clear"></div>
         <div class="navigation">
             <ul id="nav" class="dropdown dropdown-linear dropdown-columnar">
-                <li><a href="{{url('/')}}">主页</a></li>
-                <li><a href="{{url('colordevice')}}">彩超</a></li>
-                <li><a href="{{url('nocolordevice')}}">黑白超</a></li>
-                <li><a href="{{url('colordevice/probes')}}">探头</a></li>
-                <li><a href="{{url('about')}}">关于我们</a></li>
-                <li><a href="{{url('contact')}}">联系方式</a></li>
-                <li><a href="{{url('service')}}">如何购买</a></li>
+                <li><a href="{{url('/')}}">{{Lang::get('page.index')}}</a></li>
+                <li><a href="{{url('colordevice')}}">{{Lang::get('page.ucd')}}</a></li>
+                <li><a href="{{url('nocolordevice')}}">{{Lang::get('page.ubs')}}</a></li>
+                <li><a href="{{url('colordevice/probes')}}">{{Lang::get('page.probe')}}</a></li>
+                <li><a href="{{url('about')}}">{{Lang::get('page.about_us')}}</a></li>
+                <li><a href="{{url('contact')}}">{{Lang::get('page.contact')}}</a></li>
+                <li><a href="{{url('service')}}">{{Lang::get('page.help')}}</a></li>
             </ul>
             <ul class="lang">
             	<li>Language:</li>
@@ -56,18 +56,18 @@
         	<a href="#top" class="top">&nbsp;</a>
         </div>
         <div class="emailsignup">
-        	<h5>Get Prices</h5>
+        	<h5>{{Lang::get('page.get_prices')}}</h5>
             {{ Form::open(array('url' => 'getPrice', 'class' => 'form-horizontal', 'role' => 'form' )) }}
             <ul class="inp">
-            	<li><input name="email" placeholder="    your email address" type="text" class="bar" /></li>
+            	<li><input name="email" placeholder="    {{Lang::get('page.your_email_address')}}" type="text" class="bar" /></li>
                 <li>{{ Form::submit(Lang::get('page.send'), array('class' => 'simplebtn')) }}</li>
             </ul>
             {{ Form::close() }}
             <div class="clear"></div>
             <p class="signtxt">
-            	By entering your email address, We will send products price to you.
+                {{Lang::get('page.send_prices')}}
             </p>
-            <h6>FLEXIBLE PAYMENT METHODS</h6>
+            <h6>{{Lang::get('page.payment')}}</h6>
             <ul class="cards">
             	<li><img src="{{asset('images/visa.gif')}}" alt="visa" /></li>
                 <li><img src="{{asset('images/master.gif')}}" alt="master" /></li>
@@ -79,24 +79,24 @@
     	<div class="partners">
         	<h5>Products</h5>
             <ul>
-                <li><a href="{{url('nocolordevice/ipad')}}">黑白超ipad</a></li>
-                <li><a href="{{url('nocolordevice/laptop')}}">黑白超laptop</a></li>
-            	<li><a href="{{url('colordevice/ipad')}}">彩超ipad</a></li>
-                <li><a href="{{url('colordevice/laptop')}}">彩超laptop</a></li>
-                <li><a href="{{url('colordevice/portable')}}">彩超portable</a></li>
-                <li><a href="{{url('colordevice/probes')}}">探头</a></li>
+                <li><a href="{{url('nocolordevice/ipad')}}">{{Lang::get('page.nocoloripad')}}</a></li>
+                <li><a href="{{url('nocolordevice/laptop')}}">{{Lang::get('page.nocolorlaptop')}}</a></li>
+            	<li><a href="{{url('colordevice/ipad')}}">{{Lang::get('page.coloripad')}}</a></li>
+                <li><a href="{{url('colordevice/laptop')}}">{{Lang::get('page.colorlaptop')}}</a></li>
+                <li><a href="{{url('colordevice/portable')}}">{{Lang::get('page.colorportable')}}</a></li>
+                <li><a href="{{url('colordevice/probes')}}">{{Lang::get('page.probe')}}</a></li>
             </ul>
             <div class="clear"></div>
         </div>
         <div class="partners">
         	<h5>Support</h5>
             <ul>
-                <li><a href="{{url('#')}}">促销信息</a></li>
-                <li><a href="{{url('#')}}">资料下载</a></li>
-                <li><a href="{{url('service')}}">帮助</a></li>
-                <li><a href="{{url('about')}}">关于我们</a></li>
-                <li><a href="{{url('#')}}">招代理商</a></li>
-                <li><a href="{{url('contact')}}">联系方式</a></li>
+                <li><a href="{{url('#')}}">{{Lang::get('page.promotion')}}</a></li>
+                <li><a href="{{url('#')}}">{{Lang::get('page.down')}}</a></li>
+                <li><a href="{{url('service')}}">{{Lang::get('page.help')}}</a></li>
+                <li><a href="{{url('about')}}">{{Lang::get('page.about_us')}}</a></li>
+                <li><a href="{{url('#')}}">{{Lang::get('page.find')}}</a></li>
+                <li><a href="{{url('contact')}}">{{Lang::get('page.contact')}}</a></li>
             </ul>
             <div class="clear"></div>
         </div>
@@ -105,8 +105,8 @@
         	<p>© 2010 ZENO. All Rights Reserved</p>
             <div class="footer_links">
             	<ul>
-                	<li><a href="#">Shipping &amp; Returns</a></li>
-                    <li class="last"><a href="#">Product Warranty Info</a></li>
+                	<li><a href="{{url('service')}}">{{Lang::get('page.ship_or_return')}}</a></li>
+                    <li class="last"><a href="{{url('service')}}">{{Lang::get('page.warranty')}}</a></li>
                 </ul>
             </div>
         </div>
@@ -115,7 +115,6 @@
     </div>
 
 <!-- // Javascript // -->
-<script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.min14.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.easing.1.2.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.anythingslider.js')}}"></script>
@@ -124,7 +123,6 @@
 <script type="text/javascript" src="{{asset('js/scroll.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/ddaccordion.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/acordn.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/Trebuchet_MS_400-Trebuchet_MS_700-Trebuchet_MS_italic_700-Trebuchet_MS_italic_400.font.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/contentslider.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.fancybox-1.3.1.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/lightbox.js')}}"></script>

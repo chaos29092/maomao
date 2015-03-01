@@ -50,10 +50,13 @@
                 <br/>
                 <p><span class="bold">Availability:</span> In stock</p>
                 <div class="quickreview">
+                    <h6>Now Promotions!</h6>
+                    <p>Off 20%, Only for March.</p>
+                    <br/>
                     <h6>Quick Overview</h6>
-                    <p>
-                        产品的简单介绍
-                    </p>
+                    <p>10.4 inch Touch Screen, full digital diagnostic ultrasound scanner, black&white.</p>
+
+
                 </div>
                 <div class="addtocart">
                     <br/>
@@ -84,7 +87,7 @@
                         <!-- Recent Articles -->
                         <div id="tab_sidebar_recent" class="tab_sidebar_list">
                             <h4>功能特点</h4><br />
-                            <p class="des">一段能把他与另外2台区别开的话</p>
+                            <p class="des">This equipment has 10.4 inch touch screen, which makes it more flexible to operate. And like an ipad, it can be carried out easily.</p>
                             <br/>
                             <p class="des">1.Dual interface;</p>
                             <p class="des">2.Can directly matche video,laser,ink jet printers to print report,no need any software,and image is real;</p>

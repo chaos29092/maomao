@@ -1,33 +1,33 @@
 @extends('master_side')
 
 @section('title')
-    index
+    ZENO - {{Lang::get('page.colorportable')}}
 @stop
 @section('keywords')
-    keywords
+    {{Lang::get('page.colorportable')}}
 @stop
 @section('description')
-    description
+    {{Lang::get('page.colorportable')}}
 @stop
 
 @section('side_content')
     <div class="col2">
-        <h4 class="heading colr">彩色portable</h4>
+        <h4 class="heading colr">{{Lang::get('page.colorportable')}}</h4>
         <!-- Product Detail -->
         <div class="prod_detail">
             <div class="big_thumb">
                 <div id="slider2">
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\colorportable\colorportable_detail_1.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\colorportable\colorportable_1.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\colorportable\colorportable_detail_1.jpg')}}" alt="{{Lang::get('page.colorportable')}} 1" />
+                        <a rel="example_group" href="{{asset('images\products\colorportable\colorportable_1.jpg')}}" title="{{Lang::get('page.colorportable')}}" class="zoom">&nbsp;</a>
                     </div>
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\colorportable\colorportable_detail_2.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\colorportable\colorportable_2.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\colorportable\colorportable_detail_2.jpg')}}" alt="{{Lang::get('page.colorportable')}} 2" />
+                        <a rel="example_group" href="{{asset('images\products\colorportable\colorportable_2.jpg')}}" title="{{Lang::get('page.colorportable')}}" class="zoom">&nbsp;</a>
                     </div>
                     <div class="contentdiv">
-                        <img src="{{asset('images\products\colorportable\colorportable_detail_3.jpg')}}" alt="" />
-                        <a rel="example_group" href="{{asset('images\products\colorportable\colorportable_3.jpg')}}" title="" class="zoom">&nbsp;</a>
+                        <img src="{{asset('images\products\colorportable\colorportable_detail_3.jpg')}}" alt="{{Lang::get('page.colorportable')}} 3" />
+                        <a rel="example_group" href="{{asset('images\products\colorportable\colorportable_3.jpg')}}" title="{{Lang::get('page.colorportable')}}" class="zoom">&nbsp;</a>
                     </div>
 
                 </div>
@@ -35,36 +35,36 @@
                 <div style="float:left; width:189px !important; overflow:hidden;">
                     <div class="anyClass" id="paginate-slider2">
                         <ul>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\colorportable\colorportable_detail_small_1.jpg')}}" alt="" /></a></li>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\colorportable\colorportable_detail_small_2.jpg')}}" alt="" /></a></li>
-                            <li><a href="#" class="toc"><img src="{{asset('images\products\colorportable\colorportable_detail_small_3.jpg')}}" alt="" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\colorportable\colorportable_detail_small_1.jpg')}}" alt="{{Lang::get('page.colorportable')}} 1" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\colorportable\colorportable_detail_small_2.jpg')}}" alt="{{Lang::get('page.colorportable')}} 2" /></a></li>
+                            <li><a href="#" class="toc"><img src="{{asset('images\products\colorportable\colorportable_detail_small_3.jpg')}}" alt="{{Lang::get('page.colorportable')}} 3" /></a></li>
                         </ul>
                     </div>
                 </div>
                 <a href="javascript:void(null)" class="next"><img src="{{asset('images/next.gif')}}" alt="" /></a>
             </div>
             <div class="desc">
-                <h2>彩色portable</h2>
-                <a href="#" class="email">Email to Us</a>
+                <h2>{{Lang::get('page.colorportable')}}</h2>
+                <a href="#" class="email">{{Lang::get('page.email_to_us')}}</a>
                 <div class="clear"></div>
                 <br/>
-                <p><span class="bold">Availability:</span> In stock</p>
+                <p><span class="bold">{{Lang::get('page.ava')}}:</span> {{Lang::get('page.in_stock')}}</p>
                 <div class="quickreview">
-                    <h6>Quick Overview</h6>
+                    <h6>{{Lang::get('page.quick_overview')}}</h6>
                     <p>
-                        产品的简单介绍
+                        {{Lang::get('page.cp_qo')}}
                     </p>
                 </div>
                 <div class="addtocart">
                     <br/>
                     <ul class="inp">
-                        <li><a href="{{url('contact')}}" class="simplebtn">Contact Us</a></li>
+                        <li><a href="{{url('contact')}}" class="simplebtn">{{Lang::get('page.contact_us')}}</a></li>
                     </ul>
                     <ul>
                         <li class="bold or">OR</li>
                         <li>
-                            <a href="#" class="add clear">下载仪器资料</a>
-                            <a href="#" class="add clear">查看购买帮助</a>
+                            <a href="#" class="add clear">{{Lang::get('page.down_file')}}</a>
+                            <a href="#" class="add clear">{{Lang::get('page.view_help')}}</a>
                         </li>
                     </ul>
                     <div class="clear"></div>
@@ -73,8 +73,8 @@
             <div class="prod_desc">
                 <div class="tab_menu_container">
                     <ul id="tab_menu">
-                        <li><a class="" rel="tab_sidebar_recent">Product Description</a></li>
-                        <li><a class="" rel="tab_sidebar_comments">Details and Parameters</a></li>
+                        <li><a class="" rel="tab_sidebar_recent">{{Lang::get('page.product_des')}}</a></li>
+                        <li><a class="" rel="tab_sidebar_comments">{{Lang::get('page.details_and_parameters')}}</a></li>
                     </ul> <!-- END -->
                     <div class="clear"></div>
                 </div>
@@ -83,34 +83,34 @@
                     <div class="tab_container_in">
                         <!-- Recent Articles -->
                         <div id="tab_sidebar_recent" class="tab_sidebar_list">
-                            <h4>功能特点</h4><br />
-                            <p class="des">一段能把他与另外2台区别开的话</p>
+                            <h4>{{Lang::get('page.features')}}</h4><br />
+                            <p class="des">{{Lang::get('page.cp_des')}}</p>
                             <br/>
-                            <p class="des">1.Imaging Modes: B, B/B, B/M, M, 4B, C, PDI, PW;</p>
-                            <p class="des">2.Scanning mode: Convex, Linear, Endocavity;</p>
-                            <p class="des">3.Gray scale levels:256;</p>
-                            <p class="des">4.Display:15" high resolution LCD monitor;</p>
-                            <p class="des">5.Transducer Connector:2 standard;</p>
-                            <p class="des">6.Scanning depth: up to 351mm;</p>
-                            <p class="des">7.Physical channels64;</p>
-                            <p class="des">8.Transducer element128;</p>
-                            <p class="des">9.Dynamic imaging technologies: Digital Beam-forming;</p>
-                            <p class="des">10.Digital Frequency Scan;</p>
-                            <p class="des">11.Dynamic Receiving focusing;</p>
-                            <p class="des">12.Dynamic Receiving apodization;</p>
-                            <p class="des">13.Real-time Dynamic Aperture;</p>
+                            <p class="des">1. {{Lang::get('page.cp_des_1')}}</p>
+                            <p class="des">2. {{Lang::get('page.cp_des_2')}}</p>
+                            <p class="des">3. {{Lang::get('page.cp_des_3')}}</p>
+                            <p class="des">4. {{Lang::get('page.cp_des_4')}}</p>
+                            <p class="des">5. {{Lang::get('page.cp_des_5')}}</p>
+                            <p class="des">6. {{Lang::get('page.cp_des_6')}}</p>
+                            <p class="des">7. {{Lang::get('page.cp_des_7')}}</p>
+                            <p class="des">8. {{Lang::get('page.cp_des_8')}}</p>
+                            <p class="des">9. {{Lang::get('page.cp_des_9')}}</p>
+                            <p class="des">10. {{Lang::get('page.cp_des_10')}}</p>
+                            <p class="des">11. {{Lang::get('page.cp_des_11')}}</p>
+                            <p class="des">12. {{Lang::get('page.cp_des_12')}}</p>
+                            <p class="des">13. {{Lang::get('page.cp_des_13')}}</p>
                             <br/>
-                            <img src="{{asset('images\products\colorportable\colorportable_d_1.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\colorportable\colorportable_d_1.jpg')}}" alt="{{Lang::get('page.colorportable')}} 1"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\colorportable\colorportable_d_2.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\colorportable\colorportable_d_2.jpg')}}" alt="{{Lang::get('page.colorportable')}} 2"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\colorportable\colorportable_d_3.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\colorportable\colorportable_d_3.jpg')}}" alt="{{Lang::get('page.colorportable')}} 3"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\colorportable\colorportable_d_4.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\colorportable\colorportable_d_4.jpg')}}" alt="{{Lang::get('page.colorportable')}} 4"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\colorportable\colorportable_d_5.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\colorportable\colorportable_d_5.jpg')}}" alt="{{Lang::get('page.colorportable')}} 5"/>
                             <br/><br/>
-                            <img src="{{asset('images\products\colorportable\colorportable_d_6.jpg')}}" alt=""/>
+                            <img src="{{asset('images\products\colorportable\colorportable_d_6.jpg')}}" alt="{{Lang::get('page.colorportable')}} 6"/>
                         </div>
                         <!-- END -->
 
@@ -120,94 +120,94 @@
                         <div id="tab_sidebar_comments" class="tab_sidebar_list">
                             <div class="aditional_info">
                                 <ul>
-                                    <li class="bold title">Imaging processing</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_1')}}</li>
                                     <li class="desc">
-                                        <p>Pre-processing:8-segment TGC adjustment, Dynamic range (0-100), Frame correlation (0-7), Edge enhancement (0-7), Line density (High/Mid/Low)</p>
-                                        <p>Post-processing: Gray scale (0-14), Scan angle up to 150, left/right reverse, up/down reverse</p>
+                                        <p>{{Lang::get('page.cp_li_1_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_1_2')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Function</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_2')}}</li>
                                     <li class="desc">
-                                        <p>Zoom: 10 times</p>
-                                        <p>Cine loop: up to 6400 frames</p>
-                                        <p>HDD 500GB</p>
+                                        <p>{{Lang::get('page.cp_li_2_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_2_2')}}</p>
+                                        <p>{{Lang::get('page.cp_li_2_3')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Software function</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_3')}}</li>
                                     <li class="desc">
-                                        <p>General Measurement: distance, circumference, area, (trace/ellipse), volume, etc.</p>
-                                        <p>Calculation package: abdomen, cardiac, gynecology, obstetrics, urology,, small parts (thyroid), etc.</p>
+                                        <p>{{Lang::get('page.cp_li_3_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_3_2')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Peripheral Ports</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_4')}}</li>
                                     <li class="desc">
-                                        <p>Two Transducer Ports</p>
-                                        <p>Two USB Ports</p>
-                                        <p>DVI (to connect to external monitor or projector)</p>
-                                        <p>Remote</p>
-                                        <p>Video Output</p>
-                                        <p>S Video</p>
-                                        <p>LAN</p>
-                                        <p>Power Input Port</p>
-                                        <p>Foot switch</p>
+                                        <p>{{Lang::get('page.cp_li_4_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_2')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_3')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_4')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_5')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_6')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_7')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_8')}}</p>
+                                        <p>{{Lang::get('page.cp_li_4_9')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Standard Configuration</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_5')}}</li>
                                     <li class="desc">
-                                        <p>15" high definition LED monitor</p>
-                                        <p>Two transducer connectors</p>
-                                        <p>Back lit control panel</p>
-                                        <p>8-segment TGC</p>
-                                        <p>982-frame cine loop</p>
-                                        <p>Integrated 500GB Hard disk</p>
-                                        <p>Internal lithium Battery Supporting normal diagnosis up to 1.5 hours</p>
-                                        <p>Inverted Harmonic Imaging</p>
-                                        <p>Pseudo color imaging mode</p>
-                                        <p>Annotation library for quick comment</p>
-                                        <p>Graph/text report function</p>
-                                        <p>DICOM storage SCU</p>
-                                        <p>User defined exam settings</p>
-                                        <p>User defined parameters capture (Acquire Set)</p>
-                                        <p>Intuitive soft key at the bottom of screen, clicking supported</p>
-                                        <p>Beam steering for better needle visualization</p>
-                                        <p>Patient information management system</p>
-                                        <p>Fetal trending--Fetal growth curve graph</p>
-                                        <p>Lithotripsy function supported</p>
-                                        <p>Biopsy function supported</p>
-                                        <p>Support polyembryony measurement up to six</p>
-                                        <p>Intuitive context dependent soft key</p>
-                                        <p>USB image transfer and software upgrade</p>
-                                        <p>Language of UI: Chinese, English</p>
-                                        <p>3C6C convex array transducer（2.5/3.5/4.5/H5.0/H6.0MHz）</p>
+                                        <p>{{Lang::get('page.cp_li_5_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_2')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_3')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_4')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_5')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_6')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_7')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_8')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_9')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_10')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_11')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_12')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_13')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_14')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_15')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_16')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_17')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_18')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_19')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_20')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_21')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_22')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_23')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_24')}}</p>
+                                        <p>{{Lang::get('page.cp_li_5_25')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Options</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_6')}}</li>
                                     <li class="desc">
-                                        <p>3C6C convex array transducer (2.5/3.5/4.5/H5.0/H6.0MHz)</p>
-                                        <p>7L4C linear array transducer (6.5/7.5/8.5/H9.0/H10MHz)</p>
-                                        <p>6E1C endocavity transducer (5.0/6.5/8.0/H8.0/H9.0MHz)</p>
-                                        <p>8L4C high frequency linear probe</p>
-                                        <p>6C1C micro convex probe</p>
-                                        <p>6I7C rectal linear probe</p>
-                                        <p>Needle-guided brackets</p>
-                                        <p>Home charger and Cararger</p>
-                                        <p>Wireless data transfer function</p>
-                                        <p>USB water-resistant footswitch</p>
-                                        <p>Mobile trolley</p>
-                                        <p>Wheeled transport case</p>
+                                        <p>{{Lang::get('page.cp_li_6_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_2')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_3')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_4')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_5')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_6')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_7')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_8')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_9')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_10')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_11')}}</p>
+                                        <p>{{Lang::get('page.cp_li_6_12')}}</p>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="bold title">Others</li>
+                                    <li class="bold title">{{Lang::get('page.cp_ul_7')}}</li>
                                     <li class="desc">
-                                        <p>Net weight: Approx.8.5 kg</p>
-                                        <p>Power supply: 100~240VAC, 50Hz/60Hz</p>
-                                        <p>Dimensions: 400mm×394mm×172mm</p>
+                                        <p>{{Lang::get('page.cp_li_7_1')}}</p>
+                                        <p>{{Lang::get('page.cp_li_7_2')}}</p>
+                                        <p>{{Lang::get('page.cp_li_7_3')}}</p>
                                     </li>
                                 </ul>
                             </div>

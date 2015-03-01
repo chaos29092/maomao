@@ -1,13 +1,13 @@
 @extends('master')
 
 @section('title')
-    index
+    ZENO - {{Lang::get('page.ubs')}}
 @stop
 @section('keywords')
-    keywords
+    {{Lang::get('page.ubs')}}
 @stop
 @section('description')
-    description
+    {{Lang::get('page.ubs')}}
 @stop
 
 @section('content')
@@ -15,13 +15,13 @@
     <div class="content_sec">
         <div class="cont_top">&nbsp;</div>
         <div class="cont_center">
-            <h3 class="heading colr">黑白超</h3>
+            <h3 class="heading colr">{{Lang::get('page.ubs')}}</h3>
             <div class="categories">
                 <div class="cats">
-                    <a href="{{url('nocolordevice/laptop')}}"><img src="images/products_4.jpg" alt="" /></a>
+                    <a href="{{url('nocolordevice/laptop')}}"><img src="images/products_4.jpg" alt="{{Lang::get('page.nocolorlaptop')}}" /></a>
                 </div>
                 <div class="cats_big">
-                    <a href="{{url('nocolordevice/ipad')}}"><img src="images/products_5.jpg" alt="" /></a>
+                    <a href="{{url('nocolordevice/ipad')}}"><img src="images/products_5.jpg" alt="{{Lang::get('page.nocoloripad')}}" /></a>
                 </div>
             </div>
 

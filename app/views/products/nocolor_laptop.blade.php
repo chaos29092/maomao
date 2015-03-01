@@ -47,7 +47,7 @@
                 <div class="quickreview">
                     <h6>Quick Overview</h6>
                     <p>
-                        产品的简单介绍
+                        12.1 inch LED Screen, with keyboard, very suitable to operate; it contains balck&white color.
                     </p>
                 </div>
                 <div class="addtocart">
@@ -79,7 +79,7 @@
                         <!-- Recent Articles -->
                         <div id="tab_sidebar_recent" class="tab_sidebar_list">
                             <h4>功能特点</h4><br />
-                            <p class="des">一段能把他与另外2台区别开的话.Comprehensive easy-to-use measurements and comments, including general, OBGYN, Cardiac,Urology, Small parts, etc. And the measurement results can be stored in the images or the patients files and automatically generate the report. Reference and import function of typical cases for assistance in diagnosis. Easy-to-use functions of setting up, searching, calling up and printing the patient files including images and reports.</p>
+                            <p class="des">This machine is like a laptop computer, with keyboard in it, doctors can bring and record it freely. It is a full digital diagnostic ultrasound system. </p>
                             <br/>
                             <p class="des">1.12.1 inch TFT color LCD (1024*768)</p>
                             <p class="des">2.Full digital system based on Windows XP</p>
