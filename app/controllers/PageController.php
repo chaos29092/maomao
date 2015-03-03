@@ -59,17 +59,41 @@ class PageController extends BaseController {
 		return View::make('products.nocolor_device');
 	}
 
+    public function cooperation()
+    {
+        return View::make('page.cooperation');
+    }
+
+    public function download()
+    {
+        return View::make('page.download');
+    }
+
+    public function promotion()
+    {
+        return View::make('page.promotion');
+    }
+
+    public function mailok()
+    {
+        return View::make('page.mailok');
+    }
+    public function priceok()
+    {
+        return View::make('page.priceok');
+    }
+
     public function contactForm()
     {
         Queue::push('SendEmail@contactForm');
 
-        return Redirect::to('/');
+        return Redirect::to('mailok');
     }
 
     public function getPrice()
     {
         Queue::push('SendEmail@sendPrice');
 
-        return Redirect::to('/');
+        return Redirect::to('priceok');
     }
 }

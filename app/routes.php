@@ -4,6 +4,11 @@ Route::get('/', 'PageController@index');
 Route::get('about', 'PageController@about');
 Route::get('contact', 'PageController@contact');
 Route::get('service', 'PageController@service');
+Route::get('cooperation', 'PageController@cooperation');
+Route::get('download', 'PageController@download');
+Route::get('promotion', 'PageController@promotion');
+Route::get('mailok', 'PageController@mailok');
+Route::get('priceok', 'PageController@priceok');
 Route::get('colordevice', 'PageController@colorDevice');
 Route::get('nocolordevice', 'PageController@nocolorDevice');
 

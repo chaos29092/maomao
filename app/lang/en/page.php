@@ -1,6 +1,14 @@
 <?php
 
 return array(
+    //mailok
+    'message_received' => 'Message Received',
+    'message_received_1' => '我们已经收到了您的来信，我们将会尽快回复您，如果紧急事务，请联系电话：XXXXXXXX',
+
+    //price send
+    'price_send' => 'Price list has been sent',
+    'price_send_1' => 'Price list has been sent, Please check your mailbox',
+
     //master
     'slogn' => 'Good doctors need good device',
     'index' => 'Home',
