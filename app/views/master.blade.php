@@ -89,11 +89,11 @@
         <div class="partners">
         	<h5>Support</h5>
             <ul>
-                <li><a href="{{url('#')}}">{{Lang::get('page.promotion')}}</a></li>
-                <li><a href="{{url('#')}}">{{Lang::get('page.down')}}</a></li>
+                <li><a href="{{url('promotion')}}">{{Lang::get('page.promotion')}}</a></li>
+                <li><a href="{{url('download')}}">{{Lang::get('page.down')}}</a></li>
                 <li><a href="{{url('service')}}">{{Lang::get('page.help')}}</a></li>
                 <li><a href="{{url('about')}}">{{Lang::get('page.about_us')}}</a></li>
-                <li><a href="{{url('#')}}">{{Lang::get('page.find')}}</a></li>
+                <li><a href="{{url('cooperation')}}">{{Lang::get('page.find')}}</a></li>
                 <li><a href="{{url('contact')}}">{{Lang::get('page.contact')}}</a></li>
             </ul>
             <div class="clear"></div>

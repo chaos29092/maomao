@@ -1,13 +1,13 @@
 @extends('master_side')
 
 @section('title')
-    index
+    ZENO - contact
 @stop
 @section('keywords')
-    keywords
+    contact us
 @stop
 @section('description')
-    description
+    contact us
 @stop
 
 @section('side_content')
