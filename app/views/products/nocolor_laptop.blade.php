@@ -58,8 +58,8 @@
                     <ul>
                         <li class="bold or">OR</li>
                         <li>
-                            <a href="#" class="add clear">{{Lang::get('page.down_file')}}</a>
-                            <a href="#" class="add clear">{{Lang::get('page.view_help')}}</a>
+                            <a href="{{url('download')}}" class="add clear">{{Lang::get('page.down_file')}}</a>
+                            <a href="{{url('service')}}" class="add clear">{{Lang::get('page.view_help')}}</a>
                         </li>
                     </ul>
                     <div class="clear"></div>
