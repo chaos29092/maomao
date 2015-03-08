@@ -45,7 +45,7 @@ return array(
 
     //index
     'most_products' => 'Our Most Recent Products',
-    'view_detal' => 'View Detal',
+    'view_detal' => 'View Detail',
     'promotion' => 'Promotion',
 
     //help
