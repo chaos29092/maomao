@@ -1,6 +1,32 @@
 <?php
 
 return array(
+    //contact
+    'get_in_touch' => 'Get in Touch',
+    'contact_1' => 'ZENO da la bienvenida a cualquier pregunta que tenga acerca de nuestros productos o servicios, y cualquier comentario que desee hacer. Para esto, por favor ingrese la información de abajo y nuestro representante se comunicará con usted en breve. ',
+    'address' => 'Dirección',
+    'address_all' => 'No.20 Yinping Road, Hi-tech Zone, Zhengzhou City, Henan Province, China ',
+    'fill_your_inquiry' => 'Please Fill Your Inquiry',
+    'your_name' => 'Your name',
+    'your_email_address' => 'Your email address',
+    'product_name' => 'Product name',
+    'country_optional' => 'Country(optional)',
+    'phone_number_optional' => 'Phone number(optional)',
+    'message' => 'Message',
+    'cooperation_message' => 'Si usted quiere ser nuestro distribuidor o si tiene alguna idea acerca de nuestra cooperación, Bienvenido a contactar con nosotros para más información. ',
+
+    //aboutus
+    'about_us_1' => 'Fundada en 2010, ZENO Empresa se dedica a la fabricación de diagnóstico médico escáner, como la sistema de digital ultrasonido escáner,  ultrasonido Doppler Color y la sistema de ultrasonido basado diagnóstico. Nuestros productos siempre dan una mejor solución para los médicos, centros de salud y hospitales en la competencia en los mercados más exigentes.',
+    'about_us_2' => 'En ZENO, ponemos el rendimiento y el servicio como valores fundamentales , para que nuestros clientes puedan ofrecer los mejores resultados posibles para sus pacientes.',
+
+    //mailok
+    'message_received' => 'Message Received',
+    'message_received_1' => 'We have received your letter, we will respond to you as soon as possible, if urgent matters, please call：18538153651',
+
+    //price send
+    'price_send' => 'Price list has been sent',
+    'price_send_1' => 'Price list has been sent, Please check your mailbox',
+
     //master
     'slogn' => 'Good doctor need good device',
     'index' => 'Inicio',

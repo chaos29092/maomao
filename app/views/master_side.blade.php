@@ -59,8 +59,10 @@
                         <div class="small_heading">
                             <h5 class="colr">{{Lang::get('page.quick_contact')}}</h5>
                         </div>
-                        <p>dsasaas</p>
-                        <p>dsaas</p>
+                        <p>
+                            <span class="bold">Phone:</span> 18538153651<br />
+                            <span class="bold">Email:</span> info@zeno-med.com<br />
+                        </p>
                         </div>
                         <div class="clear"></div>
                         <div class="left_botm">&nbsp;</div>

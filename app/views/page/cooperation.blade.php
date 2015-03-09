@@ -1,56 +1,56 @@
 @extends('master_side')
 
 @section('title')
-    index
+    ZENO - {{Lang::get('page.find')}}
 @stop
 @section('keywords')
-    keywords
+    {{Lang::get('page.find')}}
 @stop
 @section('description')
-    description
+    {{Lang::get('page.find')}}
 @stop
 
 @section('side_content')
     <div class="col2">
         <div class="contact">
-            <h3 class="heading colr">Get in Touch</h3>
+            <h3 class="heading colr">{{Lang::get('page.find')}}</h3>
             <div class="mapsec">
-                <h6 class="colr">Schdule a visit</h6>
+                <p>{{Lang::get('page.cooperation_message')}}<br/><br/></p>
+
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elit. Nulla sem risus,
+                    <span class="bold">{{Lang::get('page.address')}}:</span> {{Lang::get('page.address_all')}}
                 </p>
                 <div class="clear"></div>
                 <br />
                 <p>
-                    <span class="bold">P:</span> 123-040-536<br />
-                    <span class="bold">C:</span> 123-040-536<br />
-                    <span class="bold">E:</span> info@website.com<br />
+                    <span class="bold">Phone:</span> 18538153651<br /><br/>
+                    <span class="bold">Email:</span> info@zeno-med.com<br />
                 </p>
                 <div class="map">
-                    <iframe width="300" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;t=h&amp;z=14&amp;ll=51.500152,-0.126236&amp;output=embed"></iframe><br /><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=london&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;t=h&amp;z=14&amp;ll=51.500152,-0.126236" class="enlarg">VIEW MAP</a><div class="clear"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1638.0889298940936!2d113.5604841521149!3d34.80146690186233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x4c2944c767ff41c9!2z6YOR5bee6auY5paw5Yy65Yib5Lia5Lit5b-D5LqU5Y-35Zut!5e0!3m2!1szh-CN!2s!4v1425903815557" width="400" height="250" frameborder="0" style="border:0"></iframe>
                 </div>
             </div>
             <div class="contact_form">
-                <h6 class="colr">Please Fill Your Inquiry</h6>
+                <h6 class="colr">{{Lang::get('page.fill_your_inquiry')}}</h6>
                 {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                 <ul>
                     <li>
-                        <input type="text" name="contactname" id="contactname" placeholder="Your name" class="bar required" />
+                        <input type="text" name="contactname" id="contactname" placeholder="{{Lang::get('page.your_name')}}" class="bar required" />
                     </li>
                     <li>
-                        <input type="text" name="email" id="email" placeholder="Your email address" class="bar required email" />
+                        <input type="text" name="email" id="email" placeholder="{{Lang::get('page.your_email_address')}}" class="bar required email" />
                     </li>
                     <li>
-                        <input type="text" name="product"  placeholder="Product name" id="product" class="required bar" />
+                        <input type="text" name="product"  placeholder="{{Lang::get('page.product_name')}}" id="product" class="required bar" />
                     </li>
                     <li>
-                        <input type="text" name="country" placeholder="Country(optional)" id="product" class="bar" />
+                        <input type="text" name="country" placeholder="{{Lang::get('page.country_optional')}}" id="product" class="bar" />
                     </li>
                     <li>
-                        <input type="text" placeholder="Phone number(optional)" name="phone" id="phone" class="bar" />
+                        <input type="text" placeholder="{{Lang::get('page.phone_number_optional')}}" name="phone" id="phone" class="bar" />
                     </li>
                     <li>
-                        <textarea id="message" name="mes"  placeholder="Message" cols="50" rows="5" class="required"></textarea>
+                        <textarea id="message" name="mes"  placeholder="{{Lang::get('page.message')}}" cols="50" rows="5" class="required"></textarea>
                     </li>
                     <li>
                         {{ Form::submit(Lang::get('page.send'), array('class' => 'simplebtn')) }}

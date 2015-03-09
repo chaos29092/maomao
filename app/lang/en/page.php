@@ -1,9 +1,29 @@
 <?php
 
 return array(
+    //contact
+    'get_in_touch' => 'Get in Touch',
+    'contact_1' => 'ZENO welcomes any questions you have about our products or services, and any comments you may wish to make. To do so, please supply the information below and our representative will contact you shortly. ',
+    'address' => 'Address',
+    'address_all' => 'No.20 Yinping Road, Hi-tech Zone, Zhengzhou City, Henan Province, China',
+    'fill_your_inquiry' => 'Please Fill Your Inquiry',
+    'your_name' => 'Your name',
+    'your_email_address' => 'Your email address',
+    'product_name' => 'Product name',
+    'country_optional' => 'Country(optional)',
+    'phone_number_optional' => 'Phone number(optional)',
+    'message' => 'Message',
+    'cooperation_message' => 'If you want to be our distributor or you have any idea about our cooperation, welcome to contact with us for further information. ',
+    'promotion_content_1' => 'Palmsize Diagnostic Ultrasound Scanner Off 20%, Only for March.',
+    'promotion_content_2' => '15% OFF for 3 probes.',
+
+    //aboutus
+    'about_us_1' => 'Founded in 2010, ZENO Company is dedicated to the manufacture of medical diagnostic scanner system, such as Full Digital Ultrasound Scanner, Ultrasound Color Doppler and Ultrasound-based diagnostic system. Our products always give a better solution for doctors, health centers and hospitals competing in the most demanding markets.',
+    'about_us_2' => 'At ZENO,  we put performance and service as core values, so that our customers can deliver the best possible results for their patients.',
+
     //mailok
     'message_received' => 'Message Received',
-    'message_received_1' => '我们已经收到了您的来信，我们将会尽快回复您，如果紧急事务，请联系电话：XXXXXXXX',
+    'message_received_1' => 'We have received your letter, we will respond to you as soon as possible, if urgent matters, please call：18538153651',
 
     //price send
     'price_send' => 'Price list has been sent',
