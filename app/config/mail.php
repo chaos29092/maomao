@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'info@belislaser.com', 'name' => 'chaos'),
+	'from' => array('address' => 'info@email.zeno-med.com', 'name' => 'Maria'),
 
 	/*
 	|--------------------------------------------------------------------------
