@@ -37,9 +37,9 @@
             </ul>
             <ul class="lang">
             	<li>Language:</li>
-                <li><a href="zeno-med.com">English</a></li>
-                <li><a href="cn.zeno-med.com">中文</a></li>
-                <li><a href="es.zeno-med.com">Español</a></li>
+                <li><a href="http://zeno-med.com">English</a></li>
+                <li><a href="http://cn.zeno-med.com">中文</a></li>
+                <li><a href="http://es.zeno-med.com">Español</a></li>
             </ul>
         </div>
         <div class="clear"></div>
