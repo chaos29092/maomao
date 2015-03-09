@@ -15,7 +15,7 @@ return array(
 	*/
 
 	'mailgun' => array(
-		'domain' => 'belislaser.com',
+		'domain' => 'email.zeno-med.com',
 		'secret' => 'key-9d3ff3992743778ef5935d58ff2d55aa',
 	),
 
