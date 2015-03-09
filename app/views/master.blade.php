@@ -21,7 +21,7 @@
 	<!-- Header -->
 	<div id="masthead">
     	<div class="logo">
-        	<a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="Zeno" /></a>
+        	<a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" alt="ZENO" /></a>
             <h5 class="slogn">{{Lang::get('page.slogn')}}</h5>
         </div>
         <div class="clear"></div>
@@ -37,9 +37,9 @@
             </ul>
             <ul class="lang">
             	<li>Language:</li>
-                <li><a href="#">English</a></li>
-                <li><a href="#">中文</a></li>
-                <li><a href="#">Español</a></li>
+                <li><a href="zeno-med.com">English</a></li>
+                <li><a href="cn.zeno-med.com">中文</a></li>
+                <li><a href="es.zeno-med.com">Español</a></li>
             </ul>
         </div>
         <div class="clear"></div>
