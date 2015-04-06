@@ -45,7 +45,7 @@
             </div>
             <div class="desc">
                 <h2>{{Lang::get('page.colorportable')}}</h2>
-                <a href="#" class="email">{{Lang::get('page.email_to_us')}}</a>
+                <a href="mailto:info@zeno-med.com?subject={{Lang::get('page.colorportable')}}" class="email">{{Lang::get('page.email_to_us')}}</a>
                 <div class="clear"></div>
                 <br/>
                 <p><span class="bold">{{Lang::get('page.ava')}}:</span> {{Lang::get('page.in_stock')}}</p>

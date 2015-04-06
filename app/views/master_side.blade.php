@@ -60,7 +60,7 @@
                             <h5 class="colr">{{Lang::get('page.quick_contact')}}</h5>
                         </div>
                         <p>
-                            <span class="bold">Phone:</span> 18538153651<br />
+                            <span class="bold">Phone:</span> 0086 - 18538153651<br />
                             <span class="bold">Email:</span> info@zeno-med.com<br />
                         </p>
                         </div>
