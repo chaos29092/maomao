@@ -8,11 +8,11 @@ class SendEmail {
         $date = Input::all();
 
         Mail::send('emails.price', array('email'=>$date['email']),function($message){
-            $message->to(Input::get('email'), 'inquiry')->subject('ZENO产品价格表');
+            $message->to(Input::get('email'), 'inquiry')->subject('ZENO Ultrasound Devices List');
         });
 
         Mail::send('emails.notice', array('email'=>$date['email']),function($message){
-            $message->to('178399731@qq.com', 'inquiry')->subject('ZENO - 英语 - 价格表索取提醒');
+            $message->to('chaos29092@gmail.com', 'inquiry')->subject('ZENO - 英语 - 价格表索取提醒');
         });
     }
 
@@ -21,7 +21,7 @@ class SendEmail {
         $date = Input::all();
 
         Mail::send('emails.inquiry', array('name'=>$date['contactname'],'email'=>$date['email'],'product'=>$date['product'],'country'=>$date['country'],'phone'=>$date['phone'],'mes'=>$date['mes']),function($message){
-            $message->to(array('178399731@qq.com'), 'inquiry')->subject('ZENO - 英语 - 网站询盘');
+            $message->to(array('chaos29092@gmail.com'), 'inquiry')->subject('ZENO - 英语 - 网站询盘');
         });
     }
 }
